@@ -7,14 +7,16 @@ SqList InitList() {
     if (!L) {
         return NULL;
     }
+
     L->elem = (int*)malloc(TIME_SIZE * sizeof(int));
     if (!L->elem) {
         free(L);
         return NULL;
     }
+
     L->len = 0;
     L->size = TIME_SIZE;
-    L->inc = 0;
+    L->inc = TIME_SIZE;
     return L;
 }
 
@@ -36,47 +38,131 @@ void ClearList(SqList L) {
 }
 
 int ListEmpty(SqList L) {
-    if (L->len != 0) {
+    if (L == NULL || L->len == 0) {
         return TRUE;
-    } else {
-        return FALSE;
     }
+    return FALSE;
 }
 
 int ListLen(SqList L) {
     if (L) {
         return L->len;
-    } else {
-        return WORNING;
     }
+    return WORNING;
 }
 
 int GetElem(SqList L, int i) {
-    if (L) {
-        return L->elem[i];
-    } else {
+    if (L == NULL || i < 1 || i > L->len) {
         return WORNING;
     }
-    return OK;
+    return L->elem[i - 1];
 }
 
 int PutElem(SqList L, int i, int e) {
-    if (L) {
-        L->elem[i] = e;
-    } else {
+    if (L == NULL || i < 1 || i > L->len) {
         return WORNING;
     }
+    L->elem[i - 1] = e;
     return OK;
 }
 
-int LocateElem(SqList L, int e, ) {
-    if (L) {
-        for(int i = 0; i < L->len; i++) {
-            if ()
+int LocateElem(SqList L, int e, int (*F)(int, int)) {
+    if (L == NULL || F == NULL) {
+        return 0;
+    }
+
+    for (int i = 0; i < L->len; i++) {
+        if (F(L->elem[i], e)) {
+            return i + 1;
         }
     }
+    return 0;
 }
 
 int PrevElem(SqList L, int e) {
-    if ()
+    if (L == NULL) {
+        return WORNING;
+    }
+
+    for (int i = 0; i < L->len; i++) {
+        if (L->elem[i] == e) {
+            if (i == 0) {
+                return WORNING;
+            }
+            return L->elem[i - 1];
+        }
+    }
+    return WORNING;
+}
+
+int NextElem(SqList L, int e) {
+    if (L == NULL) {
+        return WORNING;
+    }
+
+    for (int i = 0; i < L->len; i++) {
+        if (L->elem[i] == e) {
+            if (i == L->len - 1) {
+                return WORNING;
+            }
+            return L->elem[i + 1];
+        }
+    }
+    return WORNING;
+}
+
+int ListInsert(SqList L, int i, int e) {
+    if (L == NULL || i < 1 || i > L->len + 1) {
+        return WORNING;
+    }
+
+    if (L->len >= L->size) {
+        int newSize = L->size + (L->inc > 0 ? L->inc : TIME_SIZE);
+        int *newElem = (int*)malloc(newSize * sizeof(int));
+        if (!newElem) {
+            return WORNING;
+        }
+
+        for (int j = 0; j < L->len; j++) {
+            newElem[j] = L->elem[j];
+        }
+
+        free(L->elem);
+        L->elem = newElem;
+        L->size = newSize;
+    }
+
+    /**将i位置及之后的元素后移 */
+    for (int j = L->len; j >= i; j--) {
+        L->elem[j] = L->elem[j - 1];
+    }
+
+    L->elem[i - 1] = e;
+    L->len++;
+    return OK;
+}
+
+int ListDelete(SqList L, int i) {
+    if (L == NULL || (i < 1 || i > L->len)) {
+        return 0;
+    }
+
+    int e = L->elem[i - 1];
+
+    for (int j = i; j < L->len; j++) {
+        L->elem[j - 1] = L->elem[j];
+    }
+
+    L->len--;
+    return e;
+}
+
+void ListTraverse(SqList L, int (*F)(int, int)) {
+    if (L == NULL || F == NULL) {
+        return;
+    }
+
+    for (int i = 0; i < L->len; i++) {
+        (void)F(L->elem[i], i + 1);
+    }
 }
