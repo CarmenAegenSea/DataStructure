@@ -32,9 +32,7 @@ void FreeList(SqList *L) {
 }
 
 void ClearList(SqList L) {
-    if (L) {
-        L->len = 0;
-    }
+    L->len = 0;
 }
 
 int ListEmpty(SqList L) {
