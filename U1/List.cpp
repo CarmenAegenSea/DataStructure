@@ -1,5 +1,5 @@
 #include "List.h"
-#include "TIME.h"
+#include "Def.h"
 #include <stdlib.h>
 
 SqList InitList() {
@@ -46,19 +46,19 @@ int ListLen(SqList L) {
     if (L) {
         return L->len;
     }
-    return WORNING;
+    return WARNING;
 }
 
 int GetElem(SqList L, int i) {
     if (L == NULL || i < 1 || i > L->len) {
-        return WORNING;
+        return WARNING;
     }
     return L->elem[i - 1];
 }
 
 int PutElem(SqList L, int i, int e) {
     if (L == NULL || i < 1 || i > L->len) {
-        return WORNING;
+        return WARNING;
     }
     L->elem[i - 1] = e;
     return OK;
@@ -79,46 +79,46 @@ int LocateElem(SqList L, int e, int (*F)(int, int)) {
 
 int PrevElem(SqList L, int e) {
     if (L == NULL) {
-        return WORNING;
+        return WARNING;
     }
 
     for (int i = 0; i < L->len; i++) {
         if (L->elem[i] == e) {
             if (i == 0) {
-                return WORNING;
+                return WARNING;
             }
             return L->elem[i - 1];
         }
     }
-    return WORNING;
+    return WARNING;
 }
 
 int NextElem(SqList L, int e) {
     if (L == NULL) {
-        return WORNING;
+        return WARNING;
     }
 
     for (int i = 0; i < L->len; i++) {
         if (L->elem[i] == e) {
             if (i == L->len - 1) {
-                return WORNING;
+                return WARNING;
             }
             return L->elem[i + 1];
         }
     }
-    return WORNING;
+    return WARNING;
 }
 
 int ListInsert(SqList L, int i, int e) {
     if (L == NULL || i < 1 || i > L->len + 1) {
-        return WORNING;
+        return WARNING;
     }
 
     if (L->len >= L->size) {
         int newSize = L->size + (L->inc > 0 ? L->inc : TIME_SIZE);
         int *newElem = (int*)malloc(newSize * sizeof(int));
         if (!newElem) {
-            return WORNING;
+            return WARNING;
         }
 
         for (int j = 0; j < L->len; j++) {
