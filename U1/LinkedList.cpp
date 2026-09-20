@@ -1,5 +1,4 @@
 #include "LinkList.h"
-#include "Def.h"
 #include <stdlib.h>
 
 LinkList InitList() {

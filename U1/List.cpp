@@ -1,5 +1,4 @@
 #include "List.h"
-#include "Def.h"
 #include <stdlib.h>
 
 SqList InitList() {
@@ -36,8 +35,11 @@ void ClearList(SqList L) {
 }
 
 int ListEmpty(SqList L) {
-    if (L == NULL || L->len == 0) {
+    if (L == NULL) {
+        return WARNING;
+        if (L->len == 0) {
         return TRUE;
+        }
     }
     return FALSE;
 }
@@ -130,7 +132,7 @@ int ListInsert(SqList L, int i, int e) {
         L->size = newSize;
     }
 
-    /**将i位置及之后的元素后移 */
+    /* 将i位置及之后的元素后移 */
     for (int j = L->len; j >= i; j--) {
         L->elem[j] = L->elem[j - 1];
     }

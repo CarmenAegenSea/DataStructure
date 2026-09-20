@@ -1,6 +1,8 @@
 #ifndef LINKLIST_H
 #define LINKLIST_H
 
+#include "Def.h"
+
 typedef struct LNode {
     int data;
     struct LNode *next;
