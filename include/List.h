@@ -25,6 +25,6 @@ int PrevElem(SqList L, int e);                           /* 若e是L元素且不
 int NextElem(SqList L, int e);                           /* 若e是L元素且不是最后一个，返回其后继值 */
 int ListInsert(SqList L, int i, int e);                  /* 在L的i位置插入元素e,顺序表长度++ */
 int ListDelete(SqList L, int i);                         /* 删除L在i位置的元素并返回其值，顺序表长度--，若不存在，返回0 */
-void ListTraverse(SqList L, int (*F)(int, int));         /* 对L的所有元素执行F */
+void ListTraverse(SqList L, int (*F)(int));              /* 对L的所有元素执行F */
 
 #endif

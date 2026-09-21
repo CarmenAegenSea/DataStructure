@@ -37,18 +37,15 @@ void ClearList(SqList L) {
 int ListEmpty(SqList L) {
     if (L == NULL) {
         return WARNING;
-        if (L->len == 0) {
-        return TRUE;
-        }
     }
-    return FALSE;
+    return L->len == 0 ? TRUE : FALSE;
 }
 
 int ListLen(SqList L) {
-    if (L) {
-        return L->len;
+    if (!L) {
+        return WARNING;
     }
-    return WARNING;
+    return L->len;
 }
 
 int GetElem(SqList L, int i) {
@@ -157,12 +154,12 @@ int ListDelete(SqList L, int i) {
     return e;
 }
 
-void ListTraverse(SqList L, int (*F)(int, int)) {
+void ListTraverse(SqList L, int (*F)(int)) {
     if (L == NULL || F == NULL) {
         return;
     }
 
     for (int i = 0; i < L->len; i++) {
-        (void)F(L->elem[i], i + 1);
+        (void)F(L->elem[i]);
     }
 }
