@@ -3,14 +3,14 @@
 
 #include "Def.h"
 
-#define TIME_SIZE 5
+#define TIME_SIZE 5         /* 表初始长度 */
 
 typedef struct SqList
 {
-    int *elem;
-    int len;
-    int size;
-    int inc;
+    int *elem;                /* 存储空间基址 */
+    int len;                  /* 当前长度（元素个数） */
+    int size;                 /* 当前分配的存储容量 */
+    int inc;                  /* 扩容增量 */
 } SqListNode, *SqList;
 
 SqList InitList();                                       /* 初始化 */

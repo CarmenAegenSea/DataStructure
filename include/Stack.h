@@ -4,7 +4,6 @@
 #include "Def.h"
 
 #define STACK_INIT_SIZE 5      /* 栈初始容量 */
-#define STACK_INC       5      /* 栈扩容增量 */
 
 typedef struct SqStack
 {

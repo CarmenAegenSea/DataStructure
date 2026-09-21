@@ -5,8 +5,8 @@
 
 typedef struct LNode 
 {
-    int data;
-    struct LNode *next;
+    int data;                  /* 数据域 */
+    struct LNode *next;        /* 指针域，指向后继结点 */
 } LNode, *LinkList;
 
 LinkList InitList();                                            /* 初始化 */
