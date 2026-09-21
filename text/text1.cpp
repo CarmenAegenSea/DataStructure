@@ -11,7 +11,7 @@ int six(int a, int b) {
 }
 
 int printSquare(int value) {
-    printf("[ListTraverse]:%.0f", pow(value, 2));
+    printf("%d ", pow(value, 2));
     return OK;
 }
 
@@ -26,8 +26,9 @@ int main() {
         ListInsert(textL, i, (3 + (3 * i)));
     }
     
+    printf("[GetElem]:");
     for (int i = 1; i <= ListLen(textL); i++) {
-        printf("[GetElem]:%d", GetElem(textL, i));
+        printf("%d ", GetElem(textL, i));
     }
     printf("\n");
 
@@ -35,6 +36,7 @@ int main() {
     printf("[NextElem]:%d\n", NextElem(textL, 15));
     printf("[PrevElem]:%d\n", PrevElem(textL, 9));
     
+    printf("[ListTraverse]:");
     ListTraverse(textL, printSquare);
     printf("\n");
 
