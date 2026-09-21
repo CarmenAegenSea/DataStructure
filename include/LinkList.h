@@ -3,7 +3,8 @@
 
 #include "Def.h"
 
-typedef struct LNode {
+typedef struct LNode 
+{
     int data;
     struct LNode *next;
 } LNode, *LinkList;

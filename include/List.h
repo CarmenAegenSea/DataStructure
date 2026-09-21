@@ -5,7 +5,7 @@
 
 #define TIME_SIZE 5
 
-typedef struct
+typedef struct SqList
 {
     int *elem;
     int len;
