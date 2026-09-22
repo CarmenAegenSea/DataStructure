@@ -40,3 +40,41 @@ int StackEmpty(SqStack S) {
     }
     return S->top == 0 ? TRUE : FALSE;
 }
+
+int StackLen(SqStack S) {
+    if (!S) {
+        return WARNING;
+    }
+    return S->top;
+}
+
+int GetTop(SqStack S) {
+    if (!S) {
+        return WARNING;
+    }
+    return S->elem[S->top - 1];
+}
+
+int Push(SqStack S, int e) {
+    if (!S) {
+        return WARNING;
+    }
+
+    if (S->top >= S->size) {
+        int newSize = S->size + S->inc;
+        int* newElem = (int*)malloc(sizeof(int) * newSize);
+        if (!newSize) {
+            return ERROR;
+        }
+
+        for (int i = 0; i < S->top; i++) {
+            newElem[i] = S->elem[i];
+        }
+
+        S->size = newSize;
+        free(S->elem);
+        S->elem = newElem;
+    }
+    S->elem[S->top++] = e;
+    return OK;
+}
