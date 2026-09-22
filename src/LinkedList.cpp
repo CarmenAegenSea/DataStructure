@@ -37,7 +37,7 @@ void ClearList(LinkList L) {
 }
 
 int ListEmpty(LinkList L) {
-    if (L == NULL || L->data == 0) {
+    if (!L || L->data == 0) {
         return TRUE;
     }
     return FALSE;

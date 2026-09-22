@@ -35,7 +35,7 @@ void ClearList(SqList L) {
 }
 
 int ListEmpty(SqList L) {
-    if (L == NULL) {
+    if (!L) {
         return WARNING;
     }
     return L->len == 0 ? TRUE : FALSE;
@@ -49,14 +49,14 @@ int ListLen(SqList L) {
 }
 
 int GetElem(SqList L, int i) {
-    if (L == NULL || i < 1 || i > L->len) {
+    if (!L || i < 1 || i > L->len) {
         return WARNING;
     }
     return L->elem[i - 1];
 }
 
 int PutElem(SqList L, int i, int e) {
-    if (L == NULL || i < 1 || i > L->len) {
+    if (!L || i < 1 || i > L->len) {
         return WARNING;
     }
     L->elem[i - 1] = e;
@@ -64,7 +64,7 @@ int PutElem(SqList L, int i, int e) {
 }
 
 int LocateElem(SqList L, int e, int (*F)(int, int)) {
-    if (L == NULL || F == NULL) {
+    if (!L || !F ) {
         return 0;
     }
 
@@ -77,7 +77,7 @@ int LocateElem(SqList L, int e, int (*F)(int, int)) {
 }
 
 int PrevElem(SqList L, int e) {
-    if (L == NULL) {
+    if (!L) {
         return WARNING;
     }
 
@@ -93,7 +93,7 @@ int PrevElem(SqList L, int e) {
 }
 
 int NextElem(SqList L, int e) {
-    if (L == NULL) {
+    if (!L) {
         return WARNING;
     }
 
@@ -109,7 +109,7 @@ int NextElem(SqList L, int e) {
 }
 
 int ListInsert(SqList L, int i, int e) {
-    if (L == NULL || i < 1 || i > L->len + 1) {
+    if (!L || i < 1 || i > L->len + 1) {
         return WARNING;
     }
 
@@ -140,7 +140,7 @@ int ListInsert(SqList L, int i, int e) {
 }
 
 int ListDelete(SqList L, int i) {
-    if (L == NULL || (i < 1 || i > L->len)) {
+    if (!L || (i < 1 || i > L->len)) {
         return 0;
     }
 
@@ -155,7 +155,7 @@ int ListDelete(SqList L, int i) {
 }
 
 void ListTraverse(SqList L, int (*F)(int)) {
-    if (L == NULL || F == NULL) {
+    if (!L || !F ) {
         return;
     }
 
