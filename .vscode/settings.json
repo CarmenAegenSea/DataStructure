@@ -1,3 +1,9 @@
 {
-    "diffEditor.renderSideBySide": true
+    "diffEditor.renderSideBySide": true,
+    "chat.tools.terminal.autoApprove": {
+        "/^gcc -Wall -Wextra -std=c11 -Iinclude -x c src/text/text2/text2\\.cpp include/Stack/Stack\\.cpp -o /tmp/text2 && printf '1\\+2\\*3\\\\n\\(2\\+3\\)\\*4\\\\n-5 \\+ 2\\\\n2/0\\\\n\\(1\\+2\\\\n' \\| /tmp/text2$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
 }

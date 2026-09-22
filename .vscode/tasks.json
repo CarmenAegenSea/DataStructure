@@ -8,8 +8,10 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "-I${workspaceFolder}/include",
+                "-x",
+                "c",
                 "${file}",
-                "${workspaceFolder}/src/List.cpp",
+                "${workspaceFolder}/include/Stack/Stack.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-lm"
