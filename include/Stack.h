@@ -15,7 +15,7 @@ typedef struct SqStack
 
 SqStack InitStack();                            /* 初始化空栈 */
 void FreeStack(SqStack *S);                     /* 释放栈 */
-void ClearStack(SqStack S);                     /* 清空栈 */
+void ClearStack(SqStack *S);                     /* 清空栈 */
 int StackEmpty(SqStack S);                      /* 空返回TRUE，否则FALSE */
 int StackLen(SqStack S);                        /* 返回栈中元素个数 */
 int GetTop(SqStack S);                          /* 返回栈顶元素值，栈空返回0 */

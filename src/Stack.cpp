@@ -20,7 +20,7 @@ SqStack InitStack() {
 }
 
 void FreeStack(SqStack *S) {
-    if (S || *S) {
+    if (S && *S) {
         free((*S)->elem);
         (*S)->elem = NULL;
         free(*S);
@@ -28,9 +28,9 @@ void FreeStack(SqStack *S) {
     }
 }
 
-void ClearStack(SqStack *S) {
+void ClearStack(SqStack S) {
     if (S) {
-        (*S)->top = 0;
+        S->top = 0;
     }
 }
 
@@ -52,6 +52,9 @@ int GetTop(SqStack S) {
     if (!S) {
         return WARNING;
     }
+    if (S->top == 0) {
+        return 0;
+    }
     return S->elem[S->top - 1];
 }
 
@@ -63,7 +66,7 @@ int Push(SqStack S, int e) {
     if (S->top >= S->size) {
         int newSize = S->size + S->inc;
         int* newElem = (int*)malloc(sizeof(int) * newSize);
-        if (!newSize) {
+        if (!newElem) {
             return ERROR;
         }
 
@@ -77,4 +80,26 @@ int Push(SqStack S, int e) {
     }
     S->elem[S->top++] = e;
     return OK;
+}
+
+int Pop(SqStack S) {
+    if (!S) {
+        return WARNING;
+    }
+
+    if (S->top == 0) {
+        return 0;
+    }
+
+    return S->elem[--S->top];
+}
+
+void StackTraverse(SqStack S, int (*F)(int)) {
+    if (!S || !F) {
+        return;
+    }
+
+    for (int i = 0; i < S->top; i++) {
+        (void)F(S->elem[i]);
+    }
 }
