@@ -3,6 +3,12 @@
 #include <math.h>
 #include "List.h"
 
+/**
+ * text1.cpp
+ * 上机作业1
+ * 实现顺序表并测试
+ */
+
 int six(int a, int b) {
     if (a * b == 12) {
         return TRUE;
