@@ -16,7 +16,7 @@ typedef struct
 } *LinkQueue;
 
 LinkQueue InitQueueL();                     /* 初始化 */
-void FreeQueueL(LinkQueue Q);               /* 释放 */
+LinkQueue FreeQueueL(LinkQueue Q);               /* 释放 */
 void ClearQueueL(LinkQueue Q);              /* 清空队列 */
 void QueueRmptyL(LinkQueue Q);              /* 若Q为空返回TRUE,否则返回FALSE */
 int QueueLenL(LinkQueue Q);                 /* 获取队列的长度 */

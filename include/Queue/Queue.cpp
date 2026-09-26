@@ -13,3 +13,23 @@ LinkQueue InitQueueL() {
     Q->front->next=NULL;
     return Q;
 }
+
+LinkQueue FreeQueueL(LinkQueue Q) {
+    if (!Q) {
+        return NULL;
+    }
+
+    QueuePtr p = Q->front;
+    while (p) {
+        QueuePtr q = p;
+        p = p->next;
+        free(q);
+    }
+
+    free(Q);
+    return NULL;
+}
+
+void ClearQueueL(LinkQueue Q) {
+
+}
