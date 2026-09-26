@@ -1,10 +1,12 @@
 #ifndef QUEUE_H
 #define QUEUE_H
 
+#include "Def.h"
+
 typedef struct QNode
 {
     int data;
-    QNode* next;
+    struct QNode* next;
 } QNode, *QueuePtr;
 
 typedef struct
