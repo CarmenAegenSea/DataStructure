@@ -33,3 +33,34 @@ LinkQueue FreeQueueL(LinkQueue Q) {
 void ClearQueueL(LinkQueue Q) {
 
 }
+
+int EnQueueL(LinkQueue Q, int e) {
+    if (!Q) {
+        return ERROR;
+    }
+
+    QueuePtr p;
+    if (!(p = (QueuePtr)malloc(sizeof(QNode)))) {
+        return ERROR;
+    }
+
+    p->data = e;
+    p->next = NULL;
+    Q->rear->next = p;
+    Q->rear = p;
+    return OK;
+}
+
+int DeQueueL(LinkQueue Q) {
+    if (!Q || Q->front == Q->front) {
+        return WARNING;
+    }
+
+    QueuePtr p = Q->front->next;
+    int e = p->data;
+    if (Q->rear == p) {
+        Q->rear = Q->front;
+    }
+    free(p);
+    return e;
+}
