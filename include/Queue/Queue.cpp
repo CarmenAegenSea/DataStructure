@@ -31,7 +31,32 @@ LinkQueue FreeQueueL(LinkQueue Q) {
 }
 
 void ClearQueueL(LinkQueue Q) {
+    if (!Q) {
+        return;
+    }
+    Q->front->next = NULL;
+    Q->rear = Q->front;
+}
 
+int QueueRmpty(LinkQueue Q) {
+    if (!Q) {
+        return;
+    }
+    return Q->front == Q->rear ? TRUE : FALSE;
+}
+
+int QueueLenL(LinkQueue Q) {
+    if (!Q) {
+        return ERROR;
+    }
+    return Q->rear->next - Q->front->next;
+}
+
+int GetHeadL(LinkQueue Q) {
+    if (!Q) {
+        return WARNING;
+    }
+    return Q->front->next->data;
 }
 
 int EnQueueL(LinkQueue Q, int e) {
@@ -63,4 +88,15 @@ int DeQueueL(LinkQueue Q) {
     }
     free(p);
     return e;
+}
+
+void QueueTrav(LinkQueue Q, int (*F)(int)) {
+    if (!Q || !F) {
+        return;
+    }
+    QueuePtr p = Q->front->next;
+    while (p) {
+        F(p->data);
+        p = p->next;
+    }
 }

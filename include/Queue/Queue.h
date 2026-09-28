@@ -11,14 +11,14 @@ typedef struct QNode
 
 typedef struct
 {
-    QueuePtr front;
-    QueuePtr rear;
+    QueuePtr front;     /* 队头指针 */
+    QueuePtr rear;      /* 队尾指针 */
 } *LinkQueue;
 
 LinkQueue InitQueueL();                     /* 初始化 */
-LinkQueue FreeQueueL(LinkQueue Q);               /* 释放 */
+LinkQueue FreeQueueL(LinkQueue Q);          /* 释放 */
 void ClearQueueL(LinkQueue Q);              /* 清空队列 */
-void QueueRmptyL(LinkQueue Q);              /* 若Q为空返回TRUE,否则返回FALSE */
+int QueueRmptyL(LinkQueue Q);               /* 若Q为空返回TRUE,否则返回FALSE */
 int QueueLenL(LinkQueue Q);                 /* 获取队列的长度 */
 int GetHeadL(LinkQueue Q);                  /* 若Q不为空。则返回Q的队头元素，否则返回ERROR */
 int EnQueueL(LinkQueue Q, int e);           /* 将e插入队尾 */
