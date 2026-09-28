@@ -7,7 +7,7 @@
 
 typedef struct SqList
 {
-    int *elem;                /* 存储空间基址 */
+    ElemType *elem;                /* 存储空间基址 */
     int len;                  /* 当前长度（元素个数） */
     int size;                 /* 当前分配的存储容量 */
     int inc;                  /* 扩容增量 */
