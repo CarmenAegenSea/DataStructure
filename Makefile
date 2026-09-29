@@ -12,8 +12,11 @@ List.o: $(SRC_DIR)/List.cpp $(INC_DIR)/List.h $(INC_DIR)/Def.h
 Stack.o: $(SRC_DIR)/Stack.cpp $(INC_DIR)/Stack.h $(INC_DIR)/Def.h
 	$(CXX) $(CXXFLAGS) $(CFLAGS) -c $(SRC_DIR)/Stack.cpp -o $@
 
-text1: text/text1.cpp List.o
-	$(CXX) $(CXXFLAGS) $(CFLAGS) text/text1.cpp List.o -o $@ -lm
+# text1: text/text1.cpp List.o
+# 	$(CXX) $(CXXFLAGS) $(CFLAGS) text/text1.cpp List.o -o $@ -lm
+
+text3: src/text/text3/text3.cpp Stack.h
+	$(CXX) $(CXXFLAGS) $(CFLAGS) src/text/text3/text3.cpp List.o -o $@ -lm
 
 clean:
 	rm -f *.o text1
