@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <errno.h>
 #include <limits.h>
-#include "../../../include/Stack/Stack.h"
+#include "Stack/Stack.h"
 
 /**
  * text2.cpp

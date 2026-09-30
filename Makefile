@@ -1,24 +1,41 @@
-CXX      = gcc
-CXXFLAGS = -Wall -g -Iinclude
-CFLAGS   = -x c
+# ============================================================
+#  Makefile — DataStructure 项目
+# ============================================================
 
+CC     = g++
+CXX    = g++
+CXXFLAGS = -Wall -g -O2 -std=c++17 -Iinclude
 SRC_DIR = src
-TEXT_DIR = text
-INC_DIR = include
+BUILD_DIR = build
+OUT_DIR = build
 
-List.o: $(SRC_DIR)/List.cpp $(INC_DIR)/List.h $(INC_DIR)/Def.h
-	$(CXX) $(CXXFLAGS) $(CFLAGS) -c $(SRC_DIR)/List.cpp -o $@
+# 找所有 .cpp 文件
+SRCS = $(shell find $(SRC_DIR) -name '*.cpp')
+# 转换为 build 路径
+OBJS = $(SRCS:$(SRC_DIR)/%.cpp=$(BUILD_DIR)/%.o)
+# 转换为可执行文件路径（去掉 .cpp 扩展名，改为在 build/ 目录下）
+PROGS = $(SRCS:$(SRC_DIR)/%.cpp=$(OUT_DIR)/%)
 
-Stack.o: $(SRC_DIR)/Stack.cpp $(INC_DIR)/Stack.h $(INC_DIR)/Def.h
-	$(CXX) $(CXXFLAGS) $(CFLAGS) -c $(SRC_DIR)/Stack.cpp -o $@
+# ============================================================
+# 规则
+# ============================================================
 
-# text1: text/text1.cpp List.o
-# 	$(CXX) $(CXXFLAGS) $(CFLAGS) text/text1.cpp List.o -o $@ -lm
+all: $(PROGS)
 
-text3: src/text/text3/text3.cpp Stack.h
-	$(CXX) $(CXXFLAGS) $(CFLAGS) src/text/text3/text3.cpp List.o -o $@ -lm
+# 可执行文件
+$(OUT_DIR)/%: $(BUILD_DIR)/%.o | $(OUT_DIR)
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# 编译 .cpp → .o
+$(BUILD_DIR)/%.o: $(SRC_DIR)/%.cpp
+	@mkdir -p $(dir $@)
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# 创建目录
+$(OUT_DIR):
+	mkdir -p $(OUT_DIR)
 
 clean:
-	rm -f *.o text1
+	rm -rf $(BUILD_DIR) $(OUT_DIR)
 
-.PHONY: clean
+.PHONY: all clean

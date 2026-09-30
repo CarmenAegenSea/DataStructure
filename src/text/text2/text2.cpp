@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include "../../../include/Stack/Stack.h"
+#include "Stack/Stack.h"
 
 /**
  * text2.cpp
@@ -17,7 +17,7 @@ int IsOperator(int ch) {
     return FALSE;
 }
 
-/* 返回运算符优先级（栈内优先级） */
+/* 返回运算符优先级 */
 int Precedence(int op) {
     switch (op) {
         case '+':

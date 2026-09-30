@@ -5,7 +5,7 @@
 
 #define STACK_INIT_SIZE 5      /* 栈初始容量 */
 
-typedef struct SqStack
+typedef struct SqStackNode
 {
     int *elem;                 /* 存储空间基址 */
     int top;                   /* 栈顶指针（指向栈顶元素的下一个位置） */

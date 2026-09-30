@@ -5,7 +5,7 @@
 
 #define TIME_SIZE 5         /* 表初始长度 */
 
-typedef struct SqList
+typedef struct SqListNode
 {
     ElemType *elem;                /* 存储空间基址 */
     int len;                  /* 当前长度（元素个数） */
