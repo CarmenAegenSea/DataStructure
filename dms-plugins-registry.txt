@@ -1,0 +1,4533 @@
+Fetching plugin registry...
+Enumerating objects: 8704, done.
+Counting objects:   0% (1/706)Counting objects:   1% (8/706)Counting objects:   2% (15/706)Counting objects:   3% (22/706)Counting objects:   4% (29/706)Counting objects:   5% (36/706)Counting objects:   6% (43/706)Counting objects:   7% (50/706)Counting objects:   8% (57/706)Counting objects:   9% (64/706)Counting objects:  10% (71/706)Counting objects:  11% (78/706)Counting objects:  12% (85/706)Counting objects:  13% (92/706)Counting objects:  14% (99/706)Counting objects:  15% (106/706)Counting objects:  16% (113/706)Counting objects:  17% (121/706)Counting objects:  18% (128/706)Counting objects:  19% (135/706)Counting objects:  20% (142/706)Counting objects:  21% (149/706)Counting objects:  22% (156/706)Counting objects:  23% (163/706)Counting objects:  24% (170/706)Counting objects:  25% (177/706)Counting objects:  26% (184/706)Counting objects:  27% (191/706)Counting objects:  28% (198/706)Counting objects:  29% (205/706)Counting objects:  30% (212/706)Counting objects:  31% (219/706)Counting objects:  32% (226/706)Counting objects:  33% (233/706)Counting objects:  34% (241/706)Counting objects:  35% (248/706)Counting objects:  36% (255/706)Counting objects:  37% (262/706)Counting objects:  38% (269/706)Counting objects:  39% (276/706)Counting objects:  40% (283/706)Counting objects:  41% (290/706)Counting objects:  42% (297/706)Counting objects:  43% (304/706)Counting objects:  44% (311/706)Counting objects:  45% (318/706)Counting objects:  46% (325/706)Counting objects:  47% (332/706)Counting objects:  48% (339/706)Counting objects:  49% (346/706)Counting objects:  50% (353/706)Counting objects:  51% (361/706)Counting objects:  52% (368/706)Counting objects:  53% (375/706)Counting objects:  54% (382/706)Counting objects:  55% (389/706)Counting objects:  56% (396/706)Counting objects:  57% (403/706)Counting objects:  58% (410/706)Counting objects:  59% (417/706)Counting objects:  60% (424/706)Counting objects:  61% (431/706)Counting objects:  62% (438/706)Counting objects:  63% (445/706)Counting objects:  64% (452/706)Counting objects:  65% (459/706)Counting objects:  66% (466/706)Counting objects:  67% (474/706)Counting objects:  68% (481/706)Counting objects:  69% (488/706)Counting objects:  70% (495/706)Counting objects:  71% (502/706)Counting objects:  72% (509/706)Counting objects:  73% (516/706)Counting objects:  74% (523/706)Counting objects:  75% (530/706)Counting objects:  76% (537/706)Counting objects:  77% (544/706)Counting objects:  78% (551/706)Counting objects:  79% (558/706)Counting objects:  80% (565/706)Counting objects:  81% (572/706)Counting objects:  82% (579/706)Counting objects:  83% (586/706)Counting objects:  84% (594/706)Counting objects:  85% (601/706)Counting objects:  86% (608/706)Counting objects:  87% (615/706)Counting objects:  88% (622/706)Counting objects:  89% (629/706)Counting objects:  90% (636/706)Counting objects:  91% (643/706)Counting objects:  92% (650/706)Counting objects:  93% (657/706)Counting objects:  94% (664/706)Counting objects:  95% (671/706)Counting objects:  96% (678/706)Counting objects:  97% (685/706)Counting objects:  98% (692/706)Counting objects:  99% (699/706)Counting objects: 100% (706/706)Counting objects: 100% (706/706), done.
+Compressing objects:   0% (1/184)Compressing objects:   1% (2/184)Compressing objects:   2% (4/184)Compressing objects:   3% (6/184)Compressing objects:   4% (8/184)Compressing objects:   5% (10/184)Compressing objects:   6% (12/184)Compressing objects:   7% (13/184)Compressing objects:   8% (15/184)Compressing objects:   9% (17/184)Compressing objects:  10% (19/184)Compressing objects:  11% (21/184)Compressing objects:  12% (23/184)Compressing objects:  13% (24/184)Compressing objects:  14% (26/184)Compressing objects:  15% (28/184)Compressing objects:  16% (30/184)Compressing objects:  17% (32/184)Compressing objects:  18% (34/184)Compressing objects:  19% (35/184)Compressing objects:  20% (37/184)Compressing objects:  21% (39/184)Compressing objects:  22% (41/184)Compressing objects:  23% (43/184)Compressing objects:  24% (45/184)Compressing objects:  25% (46/184)Compressing objects:  26% (48/184)Compressing objects:  27% (50/184)Compressing objects:  28% (52/184)Compressing objects:  29% (54/184)Compressing objects:  30% (56/184)Compressing objects:  31% (58/184)Compressing objects:  32% (59/184)Compressing objects:  33% (61/184)Compressing objects:  34% (63/184)Compressing objects:  35% (65/184)Compressing objects:  36% (67/184)Compressing objects:  37% (69/184)Compressing objects:  38% (70/184)Compressing objects:  39% (72/184)Compressing objects:  40% (74/184)Compressing objects:  41% (76/184)Compressing objects:  42% (78/184)Compressing objects:  43% (80/184)Compressing objects:  44% (81/184)Compressing objects:  45% (83/184)Compressing objects:  46% (85/184)Compressing objects:  47% (87/184)Compressing objects:  48% (89/184)Compressing objects:  49% (91/184)Compressing objects:  50% (92/184)Compressing objects:  51% (94/184)Compressing objects:  52% (96/184)Compressing objects:  53% (98/184)Compressing objects:  54% (100/184)Compressing objects:  55% (102/184)Compressing objects:  56% (104/184)Compressing objects:  57% (105/184)Compressing objects:  58% (107/184)Compressing objects:  59% (109/184)Compressing objects:  60% (111/184)Compressing objects:  61% (113/184)Compressing objects:  62% (115/184)Compressing objects:  63% (116/184)Compressing objects:  64% (118/184)Compressing objects:  65% (120/184)Compressing objects:  66% (122/184)Compressing objects:  67% (124/184)Compressing objects:  68% (126/184)Compressing objects:  69% (127/184)Compressing objects:  70% (129/184)Compressing objects:  71% (131/184)Compressing objects:  72% (133/184)Compressing objects:  73% (135/184)Compressing objects:  74% (137/184)Compressing objects:  75% (138/184)Compressing objects:  76% (140/184)Compressing objects:  77% (142/184)Compressing objects:  78% (144/184)Compressing objects:  79% (146/184)Compressing objects:  80% (148/184)Compressing objects:  81% (150/184)Compressing objects:  82% (151/184)Compressing objects:  83% (153/184)Compressing objects:  84% (155/184)Compressing objects:  85% (157/184)Compressing objects:  86% (159/184)Compressing objects:  87% (161/184)Compressing objects:  88% (162/184)Compressing objects:  89% (164/184)Compressing objects:  90% (166/184)Compressing objects:  91% (168/184)Compressing objects:  92% (170/184)Compressing objects:  93% (172/184)Compressing objects:  94% (173/184)Compressing objects:  95% (175/184)Compressing objects:  96% (177/184)Compressing objects:  97% (179/184)Compressing objects:  98% (181/184)Compressing objects:  99% (183/184)Compressing objects: 100% (184/184)Compressing objects: 100% (184/184), done.
+Total 8704 (delta 635), reused 543 (delta 522), pack-reused 7998 (from 3)
+
+Available Plugins (363):
+
+  GIF Search
+    ID: dankGifSearch
+    Category: utilities
+    Author: Avenge Media
+    Description: Search and browse GIFs powered by Klipy
+    Repository: https://github.com/AvengeMedia/dms-plugins
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: curl, qt6-imageformats
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/383
+
+  Phone Connect
+    ID: dankKDEConnect
+    Category: utilities
+    Author: Avenge Media
+    Description: Control connected devices via KDE Connect or Valent - view battery, send files, find phone, and more
+    Repository: https://github.com/AvengeMedia/dms-plugins
+    Capabilities: dankbar-widget, control-center
+    Compositors: any
+    Dependencies: kdeconnect, valent
+    Upvotes: 32
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/386
+
+  Media Frame
+    ID: mediaFrame
+    Category: appearance
+    Author: claymorwan
+    Description: Desktop plugin to display a picture on your desktop
+    Repository: https://codeberg.org/claymorwan/dms-plugins
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/368
+
+  Hue Manager
+    ID: hueManager
+    Category: utilities
+    Author: derethil
+    Description: Control your Philips Hue lights directly from DMS
+    Repository: https://github.com/derethil/dms-hue-manager
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: openhue-cli, jq
+    Upvotes: 2
+    Status: reviewed, unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/392
+
+  AI Assistant
+    ID: aiAssistant
+    Category: utilities
+    Author: devnullvoid
+    Description: Integrated AI chat assistant with markdown support, multiple AI provider support, streaming responses, and persistent chat history
+    Repository: https://github.com/devnullvoid/dms-ai-assistant
+    Capabilities: slideout, ai
+    Compositors: any
+    Dependencies: curl, wl-copy
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/393
+    Related: Sathi.AI, DMS Agent, Dank Hermes, Nexus AI
+
+  Todo
+    ID: todoLauncher
+    Category: productivity
+    Author: Mohammed Skepr
+    Description: A simple todo list plugin to manage, track, and export your daily tasks directly from the launcher.
+    Repository: https://github.com/iskepr/DankTodoLauncher
+    Capabilities: launcher
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/444
+    Related: Dank Todo
+
+  Docker Manager
+    ID: dockerManager
+    Category: utilities
+    Author: LuckShiba
+    Description: Display Docker/Podman container status and management controls
+    Repository: https://github.com/LuckShiba/DmsDockerManager
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: docker or podman
+    Upvotes: 12
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/471
+    Related: Docker Dashboard
+
+  Calculator
+    ID: calculator
+    Category: utilities
+    Author: Bruno Cesar Rocha
+    Description: A calculator plugin that evaluates mathematical expressions and copies results to clipboard, with optional qalc and numbat engines
+    Repository: https://github.com/rochacbruno/DankCalculator
+    Capabilities: launcher, command-execution
+    Compositors: any
+    Upvotes: 17
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/528
+
+  Sathi.AI
+    ID: sathiAi
+    Category: utilities
+    Author: SSingh44
+    Description: A simple multi model ai client to use with your dank shell. Use it ollama, gemini or openai models. Keys not included.
+    Repository: https://github.com/ss44/sathi.ai
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/542
+    Related: Ephemera, AI Assistant, DMS Agent, Dank Hermes, Nexus AI
+
+  Home Assistant Monitor
+    ID: homeAssistantMonitor
+    Category: utilities
+    Author: xxyangyoulin
+    Description: Monitor and display Home Assistant entity states in your status bar
+    Repository: https://github.com/xxyangyoulin/dms-plugin-hass
+    Capabilities: home-assistant-monitor, dankbar-widget
+    Compositors: hyprland
+    Dependencies: curl
+    Upvotes: 12
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/565
+
+  Desktop Command
+    ID: desktopCommand
+    Category: utilities
+    Author: yayuuu
+    Description: A widget that displays a command output on your desktop
+    Repository: https://github.com/yayuuu/desktopCommand
+    Capabilities: desktop-widget
+    Compositors: any
+    Dependencies: python3
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/567
+
+  Dank Actions
+    ID: dankActions
+    Category: utilities
+    Author: Avenge Media
+    Description: Add customizable, scriptable actions to your bar.
+    Repository: https://github.com/AvengeMedia/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/379
+
+  Clight
+    ID: dankClight
+    Category: utilities
+    Author: Avenge Media
+    Description: Ambient light sensor control - automatic brightness and screen dimming
+    Repository: https://github.com/AvengeMedia/dms-plugins
+    Capabilities: dankbar-widget, control-center
+    Compositors: any
+    Dependencies: clight
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/381
+
+  Dank Desktop Weather
+    ID: dankDesktopWeather
+    Category: weather
+    Author: Avenge Media
+    Description: Feature-rich weather widget with current conditions, forecasts, and multiple view modes.
+    Repository: https://github.com/AvengeMedia/dms-plugins
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/382
+    Related: Material Weather, Weather Art
+
+  Dank Hooks
+    ID: dankHooks
+    Category: utilities
+    Author: Avenge Media
+    Description: Trigger scripts based on various system events.
+    Repository: https://github.com/AvengeMedia/dms-plugins
+    Capabilities: watch-events
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/384
+
+  Hyprland Window Switcher
+    ID: dankHyprlandWindows
+    Category: utilities
+    Author: Avenge Media
+    Description: Switch between Hyprland windows with live previews
+    Repository: https://github.com/AvengeMedia/dms-plugins
+    Capabilities: launcher
+    Compositors: hyprland
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/385
+
+  Dank Launcher Keys
+    ID: dankLauncherKeys
+    Category: utilities
+    Author: Avenge Media
+    Description: Search and browse keyboard shortcuts from your compositor and applications
+    Repository: https://github.com/AvengeMedia/dms-plugins
+    Capabilities: launcher
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/387
+
+  Dank Notepad Syntax Module
+    ID: dankNotepadModule
+    Category: utilities
+    Author: Avenge Media
+    Description: Inline preview and chroma-based syntax highlighting for Notepad
+    Repository: https://github.com/AvengeMedia/dms-plugins
+    Capabilities: notepad-syntax
+    Compositors: any
+    Dependencies: notepad
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/388
+
+  Dank Pomodoro Timer
+    ID: dankPomodoroTimer
+    Category: utilities
+    Author: Avenge Media
+    Description: A customizable Pomodoro timer.
+    Repository: https://github.com/AvengeMedia/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/334
+    Related: Sands
+
+  Sticker Search
+    ID: dankStickerSearch
+    Category: utilities
+    Author: Avenge Media
+    Description: Search and browse stickers powered by Klipy
+    Repository: https://github.com/AvengeMedia/dms-plugins
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: curl, qt6-imageformats
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/389
+
+  OpenRGB Theme Sync
+    ID: openrgbThemeSync
+    Category: appearance
+    Author: 3DTreeDee
+    Description: Syncs your DankMaterialShell theme colors with RGB hardware via OpenRGB. Watches theme color changes and applies the configured color to connected devices, with optional per-device modes.
+    Repository: https://github.com/3DTreeDee/openrgb-theme-sync
+    Capabilities: daemon
+    Compositors: any
+    Dependencies: openrgb
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/838
+
+  Wallpaper by Workspace
+    ID: wallpaperByWorkspace
+    Category: appearance
+    Author: Jairo Sierra
+    Description: Sets a different wallpaper per niri workspace, with fixed or alternate mode, optional periodic rotation, and a "show desktop" transition.
+    Repository: https://github.com/3DTreeDee/wallpaperByWorkspace
+    Capabilities: wallpaper
+    Compositors: niri
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/835
+
+  LCD Digital Clock
+    ID: digitalClock
+    Category: utilities
+    Author: Kavotax
+    Description: A customizable LCD digital clock desktop widget
+    Repository: https://github.com/Kavotax/LCD-Digital-Clock.git
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/591
+    Related: Modern Clock
+
+  Nepali Calendar
+    ID: nepaliCalendar
+    Category: utilities
+    Author: ac17dollars (Abhinav Chalise)
+    Description: Get the current Nepali date
+    Repository: https://github.com/AC17dollars/dms-nepali-calendar
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/335
+
+  Dank UPS Monitor
+    ID: dankUpsMonitor
+    Category: monitoring
+    Author: acmagn
+    Description: Real-time UPS status widget via NUT (upsc).
+    Repository: https://github.com/acmagn/DMS-UPS-Monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: upsc
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/336
+
+  AI Quotas
+    ID: aiQuotas
+    Category: monitoring
+    Author: agneswd
+    Description: Monitor Claude, Codex, OpenCode, Antigravity, DeepSeek, OpenRouter, and Grok usage limits and balances in your bar. Only Antigravity requires secret-tool (libsecret).
+    Repository: https://github.com/agneswd/dms-ai-quotas
+    Capabilities: dankbar-widget, daemon
+    Compositors: any
+    Dependencies: curl, jq
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/637
+    Related: OpenTrackerBar, DeepSeek Usage, DeepSeek Balance, CLIProxyAPI Quota
+
+  ClipShare
+    ID: clipShare
+    Category: utilities
+    Author: agneswd
+    Description: Record a screen region, compress it for sharing, or upload it to Catbox with an optional Autocompressor embed link.
+    Repository: https://github.com/agneswd/dms-clipshare
+    Capabilities: daemon, ipc
+    Compositors: any
+    Dependencies: gpu-screen-recorder, ffmpeg, slurp, pactl, curl, jq
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/736
+
+  VoxType Activity Overlay
+    ID: voxtypeActivityOverlay
+    Category: utilities
+    Author: agneswd
+    Description: Live microphone activity overlay while VoxType is recording. Shows a Cava audio visualizer pill and final transcript bubble. Requires manual setup.sh, which installs the Cava config and edits VoxType's config.toml for transcript capture.
+    Repository: https://github.com/agneswd/dms-voxtype-activity-overlay
+    Capabilities: daemon
+    Compositors: any
+    Dependencies: voxtype, cava
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/638
+    Related: Voxtype, VoxType OSD
+
+  Hyprland Submap Bar
+    ID: hyprSubmap
+    Category: utilities
+    Author: agussantos023
+    Description: Shows the current Hyprland submap on the DMS bar
+    Repository: https://github.com/agussantos023/hyprSubmap
+    Capabilities: widget
+    Compositors: hyprland
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/894
+
+  WARP Toggle
+    ID: warpToggle
+    Category: utilities
+    Author: ahmed-mekky
+    Description: Toggle Cloudflare WARP via warp-cli with real-time status updates
+    Repository: https://github.com/ahmed-mekky/dms-warp-toggle
+    Capabilities: warp-toggle, dankbar-widget
+    Compositors: any
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/337
+
+  PortWatch
+    ID: portWatch
+    Category: monitoring
+    Author: Al Amin
+    Description: Shows local listening ports and development servers in DankBar, with a popout to stop them safely.
+    Repository: https://github.com/alamin147/PortWatch
+    Capabilities: dankbar-widget, monitoring
+    Compositors: hyprland
+    Dependencies: bash, ss, hyprctl
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/860
+
+  Radio Atlas Lite
+    ID: radioAtlasLite
+    Category: utilities
+    Author: Al Amin
+    Description: Launch a lightweight interactive world radio atlas from DankBar.
+    Repository: https://github.com/alamin147/RadioAtlasLite
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: mpv
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/832
+
+  Wallarchy
+    ID: wallarchyDms
+    Category: utilities
+    Author: Al Amin
+    Description: Browse SFW Wallhaven wallpapers and apply them directly through DMS.
+    Repository: https://github.com/alamin147/wallarchyDms
+    Capabilities: dankbar-widget, wallpaper, network
+    Compositors: any
+    Dependencies: curl
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/939
+    Related: Wallpaper Discovery, Spotlight Wallpapers
+
+  AI Usage
+    ID: dankAIUsage
+    Category: monitoring
+    Author: alcxyz
+    Description: Monitor Codex and Claude subscription quotas, extra-usage credits, and local token history with switchable used/remaining views and quick bar controls
+    Repository: https://github.com/alcxyz/DankAIUsage
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: dankaiusage, codex, claude
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/866
+
+  DankCalendar
+    ID: dankCalendar
+    Category: utilities
+    Author: alcxyz
+    Description: CalDAV calendar widget with event listing, notifications, and event management via a stdlib-only Go binary with keyring credentials
+    Repository: https://github.com/alcxyz/DankCalendar
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: secret-tool, notify-send
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/338
+
+  Disk Usage
+    ID: dankDiskUsage
+    Category: monitoring
+    Author: alcxyz
+    Description: Monitor disk, ZFS pool, and Nix store usage with smart mount classification and expandable ZFS pool detail
+    Repository: https://github.com/alcxyz/DankDiskUsage
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/339
+
+  Quick Search
+    ID: dankQuickSearch
+    Category: utilities
+    Author: alcxyz
+    Description: Minimal web search from the launcher with engine prefixes
+    Repository: https://github.com/alcxyz/DankQuickSearch
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: xdg-open
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/340
+    Related: Web Search
+
+  DankSession
+    ID: dankSession
+    Category: system
+    Author: alcxyz
+    Description: Save and restore Hyprland application sessions, workspaces, and window sizes, with automatic saving, login restoration, and app exclusions
+    Repository: https://github.com/alcxyz/DankSession
+    Capabilities: dankbar-widget
+    Compositors: hyprland
+    Dependencies: danksession, hyprctl, systemd-run
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/864
+
+  Spotify
+    ID: dankSpotify
+    Category: utilities
+    Author: alcxyz
+    Description: Control Spotify playback and search tracks via ncspot
+    Repository: https://github.com/alcxyz/DankSpotify
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: busctl, ncspot, wtype
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/341
+
+  Translate
+    ID: dankTranslate
+    Category: utilities
+    Author: alcxyz
+    Description: Translate text between languages using translate-shell
+    Repository: https://github.com/alcxyz/DankTranslate
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: trans, wl-copy
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/342
+    Related: Glance Translate, Dank Translate AI
+
+  Vault
+    ID: dankVault
+    Category: utilities
+    Author: alcxyz
+    Description: Search and copy passwords from your vault via rbw, pass, gopass, or op
+    Repository: https://github.com/alcxyz/DankVault
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: wl-copy
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/343
+    Related: Dank Bitwarden, Pass
+
+  Workspace OSD Flash
+    ID: workspaceOsdFlash
+    Category: utilities
+    Author: Ale Bles
+    Description: Briefly shows the id and name of the workspace you just switched to, centered on that screen.
+    Repository: https://github.com/AleBles/dms-plugins
+    Capabilities: daemon, ipc
+    Compositors: hyprland, niri, mangowc, sway, labwc, miracle-wm
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/867
+
+  Wallhaven Carousel
+    ID: wallhavenCarousel
+    Category: appearance
+    Author: dretz
+    Description: Fullscreen skewed carousel of your wallpaper folder, plus favorites, a shuffle among favorites only, color and tag filters, delete to Trash, and Wallhaven search, full-size preview and download in the same overlay.
+    Repository: https://github.com/alicercedigital/wallhaven-carousel
+    Capabilities: daemon, wallpaper, network
+    Compositors: any
+    Dependencies: python3, imagemagick
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/988
+    Related: Wallpaper Carousel
+
+  Animation Rotate
+    ID: animationRotate
+    Category: utilities
+    Author: pnbarbeito
+    Description: Control niri-animation-rotate from the Control Center: switch animations, change modes, and filter events. Daemon included — batteries included.
+    Repository: https://github.com/pnbarbeito/dms-niri-animation-rotate
+    Capabilities: control-center, dankbar-widget
+    Compositors: niri
+    Dependencies: niri
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/344
+
+  Webcam Viewer
+    ID: webcamViewer
+    Category: monitoring
+    Author: antikytheraton
+    Description: Shows RTSP camera streams via vlc/ffplay/mpv from the DankBar
+    Repository: https://github.com/antikytheraton/DankWebcamViewer
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: vlc, mpv, ffmpeg
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/345
+
+  Nix Monitor
+    ID: nixMonitor
+    Category: monitoring
+    Author: Anton Andersson
+    Description: Monitor Nix store disk usage and system generations with integrated system management capabilities
+    Repository: https://github.com/antonjah/nix-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/346
+
+  Dcal Tasks
+    ID: dcalTasks
+    Category: productivity
+    Author: AntonyKor
+    Description: List, search, create, and complete dcal tasks from the launcher, with natural language due dates and /list task-list selection.
+    Repository: https://github.com/AntonyKor/dcal-tasks-launcher
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: dcal
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/783
+
+  Battery Plus
+    ID: batteryPlus
+    Category: monitoring
+    Author: arcatva
+    Description: Battery panel with phone-style charge history, detailed stats and power profiles
+    Repository: https://github.com/arcatva/dms-battery-plus
+    Capabilities: dankbar-widget, control-center
+    Compositors: any
+    Dependencies: upower
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/618
+    Related: Lenovo Battery Settings
+
+  Next Boot Selector
+    ID: nextBootSelector
+    Category: system
+    Author: arcatva
+    Description: Pick which EFI boot entry to load on next reboot via efibootmgr. Bar pill + Control Center widget with a scrollable picker.
+    Repository: https://github.com/arcatva/dms-next-boot-selector
+    Capabilities: dankbar-widget, control-center
+    Compositors: any
+    Dependencies: efibootmgr, sudo
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/347
+
+  Dank Calendar Agenda
+    ID: dankCalendarAgenda
+    Category: productivity
+    Author: arqueon
+    Description: dcal countdown and scrollable agenda with keyboard navigation, event copying, meeting links and IPC shortcuts; opens events in DankCalendar and keeps the countdown width stable.
+    Repository: https://github.com/arqueon/dms-dankcalendar
+    Capabilities: dankbar-widget, ipc
+    Compositors: any
+    Dependencies: dcal, jq
+    Upvotes: 4
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/635
+    Related: Khal Calendar, Dank Calendar Plus
+
+  Dankmail Unread
+    ID: dankmailUnread
+    Category: utilities
+    Author: arqueon
+    Description: The DankMaterialShell companion shipped with Dankmail: live unread status and quick triage powered by the same dmail daemon.
+    Repository: https://github.com/arqueon/dankmail
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: dmail
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/612
+    Related: Mail Checker, Mail Reader
+
+  Gaze Authentication
+    ID: gazeAuth
+    Category: utilities
+    Author: arqueon
+    Description: Inspect Gaze face-authentication health and DMS lock integration without changing PAM or biometric data.
+    Repository: https://github.com/arqueon/dms-gaze-auth
+    Capabilities: control-center, authentication, command-execution
+    Compositors: any
+    Dependencies: bash, gaze, systemctl, xdg-open
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/737
+
+  DMS Theme Sync
+    ID: dmsThemeSync
+    Category: appearance
+    Author: arqueon
+    Description: Auto-sync starts on first load: DMS appearance is applied to GTK, Qt, KDE and Fontconfig, the systemd user environment and environment.d, with include lines added to niri and Hyprland configs and a managed labwc environment block. Optional Matugen folder colors, cursor variants and pre-apply backups.
+    Repository: https://github.com/arqueon/dms-theme-sync
+    Capabilities: dankbar-widget, daemon, ipc
+    Compositors: any
+    Dependencies: bash, dbus-send
+    Upvotes: 10
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/590
+
+  dms-vikunja
+    ID: dmsVikunja
+    Category: productivity
+    Author: arqueon
+    Description: Manage Vikunja projects and tasks from DankBar with nested project and label views, due dates, priorities, attachments, notifications and a vt quick-add launcher.
+    Repository: https://github.com/arqueon/dms-vikunja
+    Capabilities: daemon, dankbar-widget, control-center, notifications, launcher, ipc
+    Compositors: any
+    Dependencies: python3, secret-tool, notify-send
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/723
+
+  DMS Last.fm Scrobbler
+    ID: lastfmScrobbler
+    Category: media
+    Author: arqueon
+    Description: Last.fm companion for DMS: scrobbling, love/unlove, profile links and an offline retry queue. Optional remote Now Playing polls Last.fm; optional artwork search sends track metadata to YouTube Music. An optional MPRIS bridge needs a C compiler, libsystemd and json-c headers.
+    Repository: https://github.com/arqueon/dms-scrobbler
+    Capabilities: daemon, dankbar-widget, control-center, ipc
+    Compositors: any
+    Dependencies: python3
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/350
+
+  dms-ntfy
+    ID: ntfy
+    Category: productivity
+    Author: arqueon
+    Description: A persistent ntfy review inbox for the DankBar with All and per-topic views, unread state, local search, links, attachments, and explicit local dismissal. Supports ntfy.sh and any self-hosted instance.
+    Repository: https://github.com/arqueon/dms-ntfy
+    Capabilities: daemon, dankbar-widget, ipc
+    Compositors: any
+    Dependencies: curl, secret-tool, base64
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/686
+
+  Screen Recorder
+    ID: screenRecorder
+    Category: utilities
+    Author: arqueon
+    Description: Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Audio modes: system audio, microphone, both mixed, or both as separate tracks. IPC keybinds and Control Center toggle.
+    Repository: https://github.com/arqueon/dms-screen-recorder
+    Capabilities: daemon, dankbar-widget, control-center, ipc
+    Compositors: any
+    Dependencies: gpu-screen-recorder
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/351
+    Related: Screen Capture Toolbar, Screen Recorder X, Screen Recorder YS
+
+  Wallabag
+    ID: wallabag
+    Category: productivity
+    Author: arqueon
+    Description: Your Wallabag read-it-later queue in the DankBar: unread badge, entries and excerpts, batch actions, search and quick-add. OAuth2 secrets stay in the system keyring and reach curl through stdin. Optional thumbnails load directly from article hosts and are off by default.
+    Repository: https://github.com/arqueon/dms-wallabag
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: curl, secret-tool
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/613
+
+  Media Player
+    ID: mediaPlayer
+    Category: utilities
+    Author: Abdur Rahman Rifat
+    Description: A desktop media player widget
+    Repository: https://github.com/arrifat346afs/mediaPlayer
+    Capabilities: desktop-widget
+    Compositors: any
+    Dependencies: cava
+    Upvotes: 3
+    Status: reviewed, unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/353
+    Related: Dank Album Widget
+
+  DankBar Pinentry
+    ID: dankbarPinentry
+    Category: system
+    Author: augustocdias
+    Description: GPG and SSH passphrase prompts inside DankMaterialShell: in the bar, as a dialog, or as a screen-edge strip. Requires the companion dank-pinentry binary, built from the same repository.
+    Repository: https://github.com/augustocdias/dank-pinentry
+    Capabilities: daemon, dankbar-widget, ipc
+    Compositors: any
+    Dependencies: dank-pinentry
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/946
+
+  Shazam
+    ID: shazam
+    Category: media
+    Author: AwesomeMi
+    Description: Identify the song playing around you straight from the DankBar, powered by SongRec
+    Repository: https://github.com/AwesomeMi/dms-shazam
+    Capabilities: dankbar-widget, daemon
+    Compositors: any
+    Dependencies: songrec, libpulse
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/828
+
+  ZmkBattery
+    ID: zmkBattery
+    Category: monitoring
+    Author: ayak
+    Description: Shows central and peripheral battery levels for a ZMK split keyboard
+    Repository: https://github.com/ayaOwO/ZmkBattery
+    Capabilities: dankbar-widget, process
+    Compositors: any
+    Dependencies: bash, busctl, jq
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/682
+
+  Tasks
+    ID: tasks
+    Category: utility
+    Author: Yasiru Dharmathilaka
+    Description: A simple plugin to manage CalDav To-Do events or tasks.
+    Repository: https://github.com/AyoItsYas/dms-tasks
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python3, python-caldav
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/354
+
+  Steam Friends
+    ID: steamfriends
+    Category: utilities
+    Author: Banicnas
+    Description: Shows how many Steam friends are online, and whos online playing what.
+    Repository: https://github.com/banicans/DMS-SteamFriends
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/355
+
+  Dank Time Log
+    ID: dankTimeLog
+    Category: productivity
+    Author: bash-win
+    Description: Track time against your own presets from a bar pill and popout, with per-preset averages per day for today, this week, or the last N days. One timer at a time, stopped automatically on suspend or power-off, with IPC commands for keybindings.
+    Repository: https://github.com/bash-win/DankTimeLog
+    Capabilities: dankbar-widget, daemon, ipc
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/987
+
+  Modern Clock
+    ID: modernClock
+    Category: utilities
+    Author: beefsizzle
+    Description: Minimal desktop clock with a large day name over the date and time - a port of Prayag2's KDE Modern Clock plasmoid
+    Repository: https://github.com/beefsizzle/ModernClockDMS
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/742
+    Related: LCD Digital Clock
+
+  Baloo Search
+    ID: balooSearch
+    Category: utilities
+    Author: Beepeeko
+    Description: Uses KDE Baloo indexer to search files
+    Repository: https://github.com/Beepeeko/dms-baloo-search
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: baloosearch6
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/356
+    Related: Fd Search
+
+  AdGuard VPN
+    ID: adguardVPplugin
+    Category: system
+    Author: Bernardo Gomes
+    Description: Control, configure, and monitor adguardvpn-cli directly from DankBar
+    Repository: https://github.com/bernardopg/dms-adguard-vpn-plugin
+    Capabilities: vpn, network, dankbar-widget
+    Compositors: any
+    Dependencies: adguardvpn-cli
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/357
+    Related: Mihomo VPN
+
+  AiOverviewControl
+    ID: aiOverviewControl
+    Category: monitoring
+    Author: Bernardo Gomes
+    Description: Monitor AI subscription and API usage for Claude, Copilot, Codex, Gemini, and OpenRouter from DankBar
+    Repository: https://github.com/bernardopg/AiOverviewControl
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: bash, jq, curl
+    Upvotes: 9
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/358
+    Related: Antigravity Usage, Claude Usage, Claude Code Usage, OpenTrackerBar, DeepSeek Usage, Claude Usage and Stats
+
+  Color Picker DMS
+    ID: colorPickerDms
+    Category: utilities
+    Author: bernardopg
+    Description: Pick colors from the screen, convert common color formats, build palettes, and check WCAG contrast from DankBar
+    Repository: https://github.com/bernardopg/color-picker-dms
+    Capabilities: dankbar-widget, control-center
+    Compositors: niri, hyprland
+    Dependencies: wl-clipboard
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/359
+
+  DMS Nothing X
+    ID: dmsNothingX
+    Category: utilities
+    Author: Bestello
+    Description: Control center for Nothing and CMF audio devices
+    Repository: https://github.com/Bestello/dms-nothingx
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python3
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/663
+
+  Claude Usage
+    ID: claudeUsage
+    Category: monitoring
+    Author: Bogdan Velicu
+    Description: Claude Code 5-hour and weekly subscription limits in your bar, as theme-colored rings with a popout. Zero setup.
+    Repository: https://github.com/bogdan-velicu/DankClaudeUsage
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: jq, curl
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/360
+    Related: Claude Code Usage, AiOverviewControl, CLIProxyAPI Quota, Claude Usage and Stats
+
+  Dank RSS Widget
+    ID: dankRssWidget
+    Category: utilities
+    Author: BrendonJL, Xn4m3d, Alessandro Ianne
+    Description: Desktop widget for RSS/Atom feeds with vim-style keyboard navigation, a reading window with local full-text extraction, and export to markdown notes. Syncs with Miniflux and Google Reader (FreshRSS, Tiny Tiny RSS, Inoreader). Optional local AI via any OpenAI-compatible runtime for per-article summaries, a daily digest and interest ranking. Colour-blindness-safe palettes
+    Repository: https://github.com/BrendonJL/dms-rss-widget
+    Capabilities: desktop-widget
+    Compositors: any
+    Dependencies: curl
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/364
+    Related: Dank News RSS & Ticker, Dank News RSS & Ticker Pill
+
+  SPlayer Lyrics (Desktop)
+    ID: splayerDesktopLyrics
+    Category: media
+    Author: brkpt
+    Description: Desktop lyrics widget for SPlayer, fetches lyrics from SPlayer's local Netease API
+    Repository: https://github.com/brkp/DMS_splayerLyrics
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/710
+    Related: SPlayerLyrics, Music Lyrics, Live Lyrics
+
+  Chat Runner
+    ID: chatRunner
+    Category: utilities
+    Author: by-architect
+    Description: Search every conversation from every chat provider in the launcher, ranked in one flat list. Requires the Chat Manager plugin.
+    Repository: https://github.com/by-architect/DMS-Plugins
+    Capabilities: launcher
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/885
+
+  Chat Manager
+    ID: chatManager
+    Category: utilities
+    Author: by-architect
+    Description: One chat window and one message store for every provider. Install a provider plugin -- Matrix, WhatsApp, Signal -- alongside it and each keeps its own history and settings.
+    Repository: https://github.com/by-architect/DMS-Plugins
+    Capabilities: daemon
+    Compositors: any
+    Dependencies: go
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/886
+
+  Clipboard Runner
+    ID: clipboardRunner
+    Category: utilities
+    Author: by-architect
+    Description: Run your own commands against whatever you just copied. Each action is filed under a content type -- link, colour, file or text -- and only the ones that fit the clipboard are offered, so typing 'clip' never shows an action that cannot apply.
+    Repository: https://github.com/by-architect/DMS-Plugins
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: ffmpeg, imagemagick, python3, xdg-utils, curl
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/883
+
+  Matrix Chat
+    ID: matrixChat
+    Category: utilities
+    Author: by-architect
+    Description: Matrix provider for the Chat Manager plugin. Rooms, direct messages, attachments, replies and read receipts, with end-to-end encryption and recovery-key verification. Requires the Chat Manager plugin.
+    Repository: https://github.com/by-architect/DMS-Plugins
+    Capabilities: daemon
+    Compositors: any
+    Dependencies: go
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/887
+
+  Signal Chat
+    ID: signalChat
+    Category: utilities
+    Author: by-architect
+    Description: Signal provider for the Chat Manager plugin, linking as a companion device. Requires the Chat Manager plugin.
+    Repository: https://github.com/by-architect/DMS-Plugins
+    Capabilities: daemon
+    Compositors: any
+    Dependencies: go
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/888
+
+  WhatsApp Chat
+    ID: whatsappChat
+    Category: utilities
+    Author: by-architect
+    Description: WhatsApp provider for the Chat Manager plugin, linking as a companion device. Requires the Chat Manager plugin.
+    Repository: https://github.com/by-architect/DMS-Plugins
+    Capabilities: daemon
+    Compositors: any
+    Dependencies: go
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/889
+
+  Audio Switcher
+    ID: audioSwitcher
+    Category: utilities
+    Author: CD-Z
+    Description: Quickly toggle between different audio output devices
+    Repository: https://github.com/CD-Z/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/365
+    Related: Audio Port Switcher
+
+  Glance Translate
+    ID: glance
+    Category: utilities
+    Author: ChaoXu
+    Description: Popout translation widget for DankMaterialShell bar. Select text, click the translate icon, and get an instant side-by-side translation with copy buttons.
+    Repository: https://github.com/ChaoXu1997/glance
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: trans, wl-clipboard
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/367
+    Related: Translate, Dank Translate AI
+
+  System Monitor
+    ID: systemMonitor
+    Category: monitoring
+    Author: Christoforos Aslanov
+    Description: Real-time CPU, temperature, RAM, network, disk and GPU line charts for the DankBar
+    Repository: https://github.com/chr314/dms-system-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: dgop
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/713
+
+  Control D
+    ID: controlD
+    Category: networking
+    Author: clementpoiret
+    Description: Control and validate a Control D endpoint from DankBar
+    Repository: https://github.com/clementpoiret/dms-controld
+    Capabilities: daemon, dankbar-widget
+    Compositors: any
+    Dependencies: nslookup
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/804
+
+  Framework Fan Control
+    ID: fwFanctrl
+    Category: system
+    Author: clementpoiret
+    Description: Monitor Framework Laptop fan status and switch fw-fanctrl strategies from DankBar
+    Repository: https://github.com/clementpoiret/dms-fwfanctrl
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: fw-fanctrl
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/689
+
+  Bitwarden Dankbar
+    ID: bitwarden
+    Category: utilities
+    Author: coldi1337
+    Description: Search and manage Bitwarden or Vaultwarden using the official Bitwarden CLI, with optional PIN and fingerprint unlock.
+    Repository: https://github.com/coldi1337/dms-bitwarden-cli
+    Capabilities: dankbar-widget, ipc
+    Compositors: any
+    Dependencies: bitwarden-cli, jq, wl-clipboard
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/893
+    Related: Dank Bitwarden
+
+  DankChat
+    ID: dankChat
+    Category: utilities
+    Author: coldi1337
+    Description: Native Telegram and WhatsApp with multiple accounts, message search, media, voice messages and a bar dropdown or tiling window.
+    Repository: https://github.com/coldi1337/DankChat
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: Python 3.10+ with venv and pip, Telethon, qrcode and Pillow (installed by scripts/setup), wacli with compatible commands (0.19.0 recommended; installed by scripts/setup), qt6-multimedia, qt6-imageformats, systemd, wl-clipboard, ffmpeg (with libopus and PulseAudio input), PulseAudio or PipeWire with pipewire-pulse, notify-send (optional desktop notifications)
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/892
+
+  Interval Command
+    ID: intervalCommand
+    Category: utilities
+    Author: corcoran
+    Description: Run a command on a custom interval and display its output in the bar. Supports multiple instances with different commands.
+    Repository: https://github.com/corcoran/dms-interval-command
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/369
+
+  Aerox 3 Battery
+    ID: aerox3Battery
+    Category: monitoring
+    Author: Crambeary
+    Description: Shows the battery level of a SteelSeries Aerox 3 Wireless Gen 2 mouse in the bar via rivalcfg, with cascading low-battery notifications
+    Repository: https://github.com/Crambeary/dms-aerox3-battery-widget
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python3, hidapi
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/850
+
+  Screen Capture
+    ID: screenCapture
+    Category: utilities
+    Author: crowforkotlin
+    Description: Take screenshots using Niri's built-in command with area, full screen and active window modes
+    Repository: https://github.com/crowforkotlin/dms-screen-capture
+    Capabilities: dankbar-widget
+    Compositors: niri
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/647
+    Related: Quick Capture, DMS Screenshot
+
+  Screen Recorder X
+    ID: screenRecorderX
+    Category: utilities
+    Author: crowforkotlin
+    Description: Record screen or selected area using wf-recorder with configurable codec, framerate, quality, resolution, format and save path
+    Repository: https://github.com/crowforkotlin/dms-screen-recorder
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland, sway
+    Dependencies: wf-recorder, zenity
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/654
+    Related: Screen Recorder, Screen Capture Toolbar, Screen Recorder YS
+
+  Volume Mixer
+    ID: volumeMixer
+    Category: utilities
+    Author: cwel
+    Description: Standalone volume mixer for your bar
+    Repository: https://github.com/cwelsys/dms-volume-mixer
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/370
+
+  Taskwarrior
+    ID: taskwarrior
+    Category: utilities
+    Author: Michał Wazgird
+    Description: Taskwarrior integration for DMS: see your pending tasks in the status bar, create new tasks using Taskwarrior syntax, and check them off with a single click
+    Repository: https://github.com/cyrylas/dms-taskwarrior
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: taskwarrior
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/371
+
+  ClipBoard+
+    ID: clipboardPlus
+    Category: utilities
+    Author: Dadangdut33
+    Description: Advanced clipboard manager with integrated notes, todo, and pinned items.
+    Repository: https://github.com/Dadangdut33/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: cliphist, wl-clipboard
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/372
+
+  Media Control Plus
+    ID: mediaControlPlus
+    Category: utilities
+    Author: Dadangdut33
+    Description: Customized version of DMS media widget with extended features that is mainly focused on improving vertical bar support
+    Repository: https://github.com/Dadangdut33/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/373
+    Related: Media Controls Plus
+
+  NetBird Status
+    ID: netbirdStatus
+    Category: utilities
+    Author: Dadangdut33
+    Description: A NetBird VPN status plugin for DMS that shows your NetBird connection status and peers in the menu bar widget.
+    Repository: https://github.com/Dadangdut33/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: netbird
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/374
+
+  Simple Audio Control
+    ID: simpleAudioControl
+    Category: utilities
+    Author: Dadangdut33
+    Description: A simple widget for controlling audio output and input. Inspired by the audio widget in Noctalia Shell.
+    Repository: https://github.com/Dadangdut33/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/375
+
+  System Monitor Plus
+    ID: systemMonitorPlus
+    Category: utilities
+    Author: Dadangdut33
+    Description: Unified DMS system monitor with capabilities to customize resources order, resource shown, colors, and new styles.
+    Repository: https://github.com/Dadangdut33/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/376
+    Related: Resource Monitor
+
+  Power Usage Monitor
+    ID: powerUsagePlugin
+    Category: monitoring
+    Author: Daniel-42-z
+    Description: Display real-time power consumption from your device
+    Repository: https://github.com/Daniel-42-z/dms-power-usage
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/377
+
+  DDC Brightness
+    ID: ddcBrightness
+    Category: system
+    Author: youngshine
+    Description: Control internal and external monitor brightness via brightnessctl and ddcutil
+    Repository: https://github.com/smithyyang/dms-brightness-plugin
+    Capabilities: dankbar-widget
+    Compositors: hyprland
+    Dependencies: brightnessctl, ddcutil
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/390
+
+  Dank Todo
+    ID: dankTodo
+    Category: productivity
+    Author: Deepu K Sasidharan
+    Description: A simple locally-saved TODO list widget for the Dank bar.
+    Repository: https://github.com/deepu105/dms-dank-todo
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/391
+    Related: Todo
+
+  AirPods Control
+    ID: librepods
+    Category: utilities
+    Author: demic-dev
+    Description: AirPods control center, powered by LibrePods.
+    Repository: https://github.com/demic-dev/airpods-widget-DMS
+    Capabilities: dankbar-widget, control-center
+    Compositors: any
+    Dependencies: librepods-ctl, dbus-send
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/625
+
+  Command Runner
+    ID: commandRunner
+    Category: utilities
+    Author: devnullvoid
+    Description: Execute shell commands from the launcher with history tracking, common shortcuts, and terminal/background execution modes
+    Repository: https://github.com/devnullvoid/dms-command-runner
+    Capabilities: launcher
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/394
+
+  Emoji & Unicode Launcher
+    ID: emojiLauncher
+    Category: utilities
+    Author: devnullvoid
+    Description: Search and copy 300+ emojis and 100+ unicode characters directly from the launcher with instant clipboard copying
+    Repository: https://github.com/devnullvoid/dms-emoji-launcher
+    Capabilities: launcher
+    Compositors: any
+    Upvotes: 14
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/395
+    Related: Emoji Picker
+
+  HamQSL Propagation
+    ID: hamqslPropagation
+    Category: monitoring
+    Author: devnullvoid
+    Description: Display HamQSL solar-terrestrial and ham radio propagation data in DankBar with compact bar modes and a detailed popout
+    Repository: https://github.com/devnullvoid/dms-hamqsl-propagation
+    Capabilities: dankbar-widget, ham-radio, propagation
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/396
+
+  Web Search
+    ID: webSearch
+    Category: utilities
+    Author: devnullvoid
+    Description: Search the web with 23+ built-in search engines plus custom search engine support with keyword-based selection
+    Repository: https://github.com/devnullvoid/dms-web-search
+    Capabilities: launcher
+    Compositors: any
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/397
+    Related: Quick Search
+
+  Spotify Like
+    ID: spotifyLike
+    Category: utilities
+    Author: Dukko
+    Description: DankDash-style media popout with a heart button to save/unsave the current track to your Spotify Library
+    Repository: https://github.com/Dukko/dms-spotify-like
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python3
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/806
+
+  Dankscale
+    ID: dankscale
+    Category: utilities
+    Author: dwright
+    Description: Manage your Tailscale network: connect/disconnect, switch accounts, copy device IPs, pick exit nodes, manage routes, and control DNS
+    Repository: https://github.com/dwright134/dms-dankscale
+    Capabilities: dankbar-widget, control-center, vpn, network
+    Compositors: any
+    Dependencies: tailscale
+    Upvotes: 8
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/615
+
+  Whisperer
+    ID: whisperer
+    Category: utilities
+    Author: dwright134
+    Description: Voice dictation: records your voice, transcribes it locally with whisper.cpp, and types the result at the cursor. Optional cloud AI (OpenRouter / Gemini) transcribes and formats in one pass.
+    Repository: https://github.com/dwright134/dms-whisperer
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: pipewire, ffmpeg, wtype, whisper.cpp, libsecret
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/614
+
+  Codeforces Heatmap
+    ID: codeforcesHeatmap
+    Category: monitoring
+    Author: EchoSingh
+    Description: Display daily Codeforces problem solving activity with a color-coded heatmap
+    Repository: https://github.com/EchoSingh/codeforces-dms-plugin
+    Capabilities: dankbar-widget
+    Compositors: niri
+    Dependencies: bash, curl, jq, notify-send, xdg-open
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/398
+
+  Dank Terminal Theme
+    ID: dankterminaltheme
+    Category: appearance
+    Author: EduarD3V
+    Description: Real-time Ghostty theme management from the navbar
+    Repository: https://github.com/eduardez/DankTerminalTheme
+    Capabilities: terminal, dankbar-widget
+    Compositors: any
+    Dependencies: ghostty
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/399
+
+  Display Profile
+    ID: displayProfile
+    Category: utilities
+    Author: EienWolf
+    Description: Switch between saved Hyprland display profiles from a keyboard-driven modal.
+    Repository: https://github.com/EienWolf/dms-displayprofile
+    Compositors: hyprland
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/400
+    Related: Niri Display Settings, Display Manager, Display Output, Display Profile Manager
+
+  Retro Viseur
+    ID: retroViseur
+    Category: utilities
+    Author: elopin42
+    Description: Rear-view mirror: click the bar icon to open a small popup with your live webcam feed
+    Repository: https://github.com/elopin42/dank-retro-viseur
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: qt6-multimedia-ffmpeg
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/763
+    Related: Hand Mirror
+
+  Niri Workspaces
+    ID: niriWorkspaces
+    Category: utilities
+    Author: Embers-of-the-Fire
+    Description: Search and switch to Niri workspaces by name from the launcher
+    Repository: https://github.com/Embers-of-the-Fire/dank-niri-workspaces
+    Capabilities: launcher
+    Compositors: niri
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/716
+    Related: Niri Windows
+
+  Cava Visualizer
+    ID: cavaVisualizer
+    Category: appearance
+    Author: ernestowgg
+    Description: A simple, customizable audio visualizer for your desktop
+    Repository: https://github.com/ernestowgg/cava-visualizer
+    Capabilities: desktop-widget
+    Compositors: any
+    Dependencies: cava
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/401
+    Related: Dank Audio Visualizer, EnderPulse, AudioFX
+
+  Time Until
+    ID: timeUntil
+    Category: utilities
+    Author: Marcin Sędłak-Jakubowski
+    Description: Display a customizable countdown timer in the Dankbar. Perfect for tracking important deadlines, goals, or any time-sensitive events.
+    Repository: https://github.com/fdmarcin/TimeUntil
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/402
+
+  Antigravity Usage
+    ID: antigravityUsage
+    Category: monitoring
+    Author: Feiko Wielsma
+    Description: Monitor Google Antigravity (agy) usage — the shared 5-hour and weekly limits for the Gemini and Claude/GPT model groups, with reset countdowns.
+    Repository: https://github.com/FeikoWielsma/dms-antigravity-cli
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland
+    Dependencies: agy, jq, curl, secret-tool
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/403
+    Related: OpenTrackerBar, AiOverviewControl
+
+  Music Theme
+    ID: musicTheme
+    Category: appearance
+    Author: felipeadeildo
+    Description: Themes your system from the currently playing album art
+    Repository: https://github.com/felipeadeildo/dms-music-theme
+    Capabilities: daemon
+    Compositors: any
+    Upvotes: 4
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/776
+
+  Display Manager
+    ID: displayManager
+    Category: system
+    Author: felri
+    Description: Toggle Niri displays and control monitor hardware brightness, contrast, scale, refresh rate, and resolution.
+    Repository: https://github.com/felri/display-manager-plugin-niri-dank-linux
+    Capabilities: dankbar-widget
+    Compositors: niri
+    Dependencies: ddcutil
+    Upvotes: 5
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/404
+    Related: Display Profile
+
+  Khal Calendar
+    ID: khalCalendar
+    Category: utilities
+    Author: Reza Jelveh
+    Description: Calendar widget using khal and vdirsyncer for CalDAV sync. Create, edit, and delete events from the bar. Middle-click events to open URLs. Desktop notifications for upcoming events.
+    Repository: https://github.com/fishman/dms-khal-calendar
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: khal, vdirsyncer
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/405
+    Related: Dank Calendar Agenda
+
+  Scratchpad Helper
+    ID: scratchpadHelper
+    Category: utilities
+    Author: fluxwrk
+    Description: A visual scratchpad picker for MangoWM with cached previews and optional managed named scratchpads
+    Repository: https://github.com/fluxwrk/dms-scratchpad-helper
+    Capabilities: daemon, dankbar-widget, control-center
+    Compositors: mangowc
+    Dependencies: mmsg
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/773
+
+  DMS Agent
+    ID: dmsAgent
+    Category: utilities
+    Author: Francisdelca (Francis)
+    Description: AI desktop assistant powered by Claude Code. Floating chat panel for controlling your desktop with natural language — open apps, switch windows, play music, search the web, and more.
+    Repository: https://github.com/Francisdelca/dms-agent
+    Capabilities: dankbar-widget
+    Compositors: niri
+    Dependencies: claude
+    Upvotes: 1
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/406
+    Related: AI Assistant, Sathi.AI, Dank Hermes, Nexus AI
+
+  Wallpaper Engine Control
+    ID: wallpaperEngineControl
+    Category: appearance
+    Author: Gary Wei
+    Description: DankBar widget for linux-wallpaperengine: see what every monitor shows, skip to the next playlist item, pause, or stop to free GPU memory
+    Repository: https://github.com/garywei944/dms-wallpaper-engine-control
+    Capabilities: dankbar-widget
+    Compositors: hyprland
+    Dependencies: linux-wallpaperengine, python3, zenity
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/989
+
+  Music Lyrics
+    ID: musicLyrics
+    Category: utilities
+    Author: gasiyu
+    Description: Display synced music lyrics from multiple sources.
+    Repository: https://github.com/gasiyu/dms-plugin-musiclyrics
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/407
+    Related: Live Lyrics, SPlayerLyrics, Lyrics on Panel, SPlayer Lyrics (Desktop), LyricsEmbed
+
+  Steam Launch Flags
+    ID: steamFlagsPlugin
+    Category: utilities
+    Author: Thomas
+    Description: Quick-access reference for Steam launch flags — skip launchers, performance tools, Proton env vars, and DXVK tweaks. Click any flag to copy it.
+    Repository: https://github.com/Gateton/dank-bar-steam-flags
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/408
+
+  Network Indicator
+    ID: networkIndicator
+    Category: monitoring
+    Author: gemb0_0
+    Description: Real-time network speed monitor for DankBar showing upload and download speeds
+    Repository: https://github.com/gemb0-0/Network-Indicator.git
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 7
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/409
+
+  Personal Dictionary
+    ID: personalDictionary
+    Category: utilities
+    Author: gemb0_0
+    Description: Text expander for the launcher — copy/paste pre-defined text using a shortcut via launcher
+    Repository: https://github.com/gemb0-0/Personal-Dictionary
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: wtype, wl-clipboard
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/410
+
+  Recent Files
+    ID: recentFiles
+    Category: utilities
+    Author: Xianggang Wang
+    Description: Search recently opened XDG files directly from the DMS launcher
+    Repository: https://github.com/gouwazi/dms-recent-files
+    Capabilities: launcher
+    Compositors: any
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/642
+
+  Spotify Matugen
+    ID: spotifyMatugen
+    Category: appearance
+    Author: Grant Mosha
+    Description: Lock DMS dynamic colors to Spotify album art while music is playing
+    Repository: https://github.com/Grant07/dms-spotify-matugen
+    Capabilities: daemon
+    Compositors: any
+    Dependencies: spotify, matugen
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/692
+
+  SVGL Search
+    ID: svglSearch
+    Category: utilities
+    Author: Grant Mosha
+    Description: Search and copy SVGL brand logos directly from the DMS launcher
+    Repository: https://github.com/Grant07/dms-svgl-search
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: wl-copy
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/693
+
+  Aven Tasks
+    ID: aven
+    Category: productivity
+    Author: Geert Theys
+    Description: Quick-add tasks to the aven todo manager from DankLauncher. Pick a project from any aven workspace, or create one on the fly.
+    Repository: https://github.com/gtheys/dms-aven
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: aven
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/898
+
+  CodeBurn
+    ID: codeburn
+    Category: monitoring
+    Author: Geert Theys
+    Description: Monitor AI coding assistant token usage and costs from DankBar — cost pill, popup dashboard with insights, budget alerts, and multi-currency conversion
+    Repository: https://github.com/gtheys/dms-codeburn
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: codeburn, bash, jq
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/758
+
+  DeepSeek Usage
+    ID: deepseekWidget
+    Category: monitoring
+    Author: gylove1994
+    Description: DeepSeek Platform API balance, monthly token usage and cost in the DankBar; Playwright-based cookie login.
+    Repository: https://github.com/gylove1994/deepseek-dms-widget
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python3
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/411
+    Related: DeepSeek Balance, OpenTrackerBar, AiOverviewControl, AI Quotas
+
+  Custom Running Apps
+    ID: customRunningApps
+    Category: utilities
+    Author: Michael Kushma
+    Description: Flexible Custom Widget for Showing Running Apps on Dank Bar
+    Repository: https://github.com/heyitsmikey128/DankCustomRunningApps
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/412
+
+  Claude Usage and Stats
+    ID: claudeUsageStats
+    Category: monitoring
+    Author: HotcocoaCanary
+    Description: Claude Code usage from local transcripts: /usage limits, /stats overview, per-model charts and an activity heatmap. /usage is synced manually or on a configurable schedule
+    Repository: https://github.com/HotcocoaCanary/Canary-DMS-ClaudeUsageStats
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python3
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/920
+    Related: AiOverviewControl, Claude Usage, Claude Code Usage
+
+  Docker Dashboard
+    ID: dockerDashboard
+    Category: utilities
+    Author: HotcocoaCanary
+    Description: Docker containers, compose projects, images, networks and volumes with start/stop/restart/recreate/delete and live logs
+    Repository: https://github.com/HotcocoaCanary/Canary-DMS-DockerDashboard
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: docker, python3
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/921
+    Related: Docker Manager
+
+  Tailscale Dashboard
+    ID: tailscaleDashboard
+    Category: monitoring
+    Author: HotcocoaCanary
+    Description: Read-only Tailscale status: this device, the devices in the tailnet, traffic and relay latencies as charts, plus a link to the admin console
+    Repository: https://github.com/HotcocoaCanary/Canary-DMS-TailscaleDashboard
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: tailscale, python3
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/922
+
+  Activate Linux Watermark
+    ID: activateLinux
+    Category: utilities
+    Author: Loc Huynh
+    Description: Adds a watermark to the bottom-right of the screen
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 8
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/413
+
+  Ambient Sound
+    ID: ambientSound
+    Category: utilities
+    Author: Loc Huynh
+    Description: Play ambient focus sounds with integrated sleep timer and volume control.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: mpv, socat
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/414
+
+  Bongo Cat
+    ID: bongoCat
+    Category: utilities
+    Author: Loc Huynh
+    Description: A reactive animated cat that taps along with your keyboard input.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: evtest, libinput
+    Upvotes: 11
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/416
+
+  Breathing Exercise
+    ID: breathing
+    Category: utilities
+    Author: Loc Huynh
+    Description: A guided breathing exercise tool for mindfulness and relaxation.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: mpv, socat
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/417
+
+  Desktop Widget Toggle
+    ID: desktopWidgetToggle
+    Category: utilities
+    Author: Loc Huynh
+    Description: Toggle visibility of desktop widget groups as overlay
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: daemon, dankbar-widget, ipc
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/419
+
+  Emoji Picker
+    ID: emojiPicker
+    Category: utilities
+    Author: Loc Huynh
+    Description: Search, copy, and paste emoji from a centered picker.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: daemon, ipc
+    Compositors: any
+    Upvotes: 4
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/800
+    Related: Emoji & Unicode Launcher
+
+  Hand Mirror
+    ID: handMirror
+    Category: utilities
+    Author: Loc Huynh
+    Description: Cozy camera preview with digital zoom, snapshots, and a pinnable floating window.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: qt6-multimedia-ffmpeg
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/422
+    Related: Retro Viseur
+
+  Hidden Bar
+    ID: hiddenBar
+    Category: utilities
+    Author: Loc Huynh
+    Description: Hide/Show bar widgets with a click or hover
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: dankbar-widget, ipc
+    Compositors: any
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/423
+    Related: Widget Group, Bar Dropdown
+
+  Hydrate
+    ID: hydrate
+    Category: utilities
+    Author: Loc Huynh
+    Description: Drink water reminder and tracker.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/424
+
+  IP Indicator
+    ID: ipIndicator
+    Category: system
+    Author: Loc Huynh
+    Description: Display public IP address, ISP, and location with a privacy-focused toggle.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: curl, iproute2, iputils, libnotify, wl-clipboard
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/425
+
+  Kaomoji Picker
+    ID: kaomojiPicker
+    Category: utilities
+    Author: Loc Huynh
+    Description: A lightweight launcher for browsing and copying kaomojis to the clipboard.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: launcher
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/426
+
+  Lutris Launcher
+    ID: lutrisLauncher
+    Category: utilities
+    Author: Loc Huynh
+    Description: Quickly browse and launch games from your Lutris library.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: lutris, python3
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/427
+
+  Media Downloader
+    ID: mediaDownloader
+    Category: utilities
+    Author: Loc Huynh
+    Description: Download audio and video from web links using yt-dlp
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: dankbar-widget, ipc
+    Compositors: any
+    Dependencies: yt-dlp, ffmpeg
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/428
+
+  Niri Display Settings
+    ID: niriDS
+    Category: utilities
+    Author: Loc Huynh
+    Description: Quickly toggle and configure display outputs in the Niri Wayland compositor.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: daemon, manage-displays, control-center
+    Compositors: niri
+    Dependencies: niri, wl-mirror
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/429
+    Related: Display Output, Display Profile, Display Profile Manager, Niri Display Settings Advance
+
+  OCR Scanner
+    ID: ocrScanner
+    Category: utilities
+    Author: Loc Huynh
+    Description: Extract text from clipboard images or local files using Tesseract OCR.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: tesseract, wl-clipboard, file, curl
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/430
+
+  Quick Capture
+    ID: quickCapture
+    Category: utilities
+    Author: Loc Huynh
+    Description: Screenshot annotation and screen recording plugin.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: daemon, control-center, dankbar-widget
+    Compositors: any
+    Dependencies: gpu-screen-recorder, wf-recorder, ffmpeg, imagemagick, img2pdf, tesseract, zbar, curl
+    Upvotes: 39
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/432
+    Related: DMS Screenshot, Screen Capture
+
+  Screenkey
+    ID: screenkey
+    Category: utilities
+    Author: Loc Huynh
+    Description: An always-on-top keystroke and mouse click visualizer for tutorials.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: daemon, control-center
+    Compositors: any
+    Dependencies: python3, evtest, libinput
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/434
+    Related: Keystrokes
+
+  Take a Break
+    ID: takeABreak
+    Category: utilities
+    Author: Loc Huynh
+    Description: A gentle companion that reminds you to rest your eyes with short and long breaks.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: daemon, control-center, ipc
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/436
+
+  Timer
+    ID: timer
+    Category: utilities
+    Author: Loc Huynh
+    Description: A countdown timer with notification support and audio alerts.
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: dankbar-widget, ipc
+    Compositors: any
+    Dependencies: libnotify, pulseaudio, systemd
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/437
+
+  Typing Sounds
+    ID: typingSounds
+    Category: utilities
+    Author: Loc Huynh
+    Description: Play mechanical keyboard sounds as you type
+    Repository: https://github.com/hthienloc/dms-plugins
+    Capabilities: daemon, control-center
+    Compositors: any
+    Dependencies: evtest, libinput, ffmpeg, python3
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/438
+
+  Dank Hermes
+    ID: dankHermes
+    Category: utilities
+    Author: hkl
+    Description: AI chat sidebar powered by local Hermes agent.
+    Repository: https://github.com/huangkaile22-prog/dankhermes
+    Capabilities: ai-chat
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/632
+    Related: AI Assistant, Sathi.AI, DMS Agent
+
+  Game Controller Battery
+    ID: gameControllerBattery
+    Category: monitoring
+    Author: Mohammad Hujair
+    Description: Shows the battery level of connected game controllers
+    Repository: https://github.com/Hujair/gameControllerBattery
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland
+    Dependencies: upower
+    Upvotes: 6
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/439
+    Related: Lenovo Battery Settings
+
+  Nix Package Runner
+    ID: nixPackageRunner
+    Category: utilities
+    Author: iahc
+    Description: Search nixpkgs with nix search, launch directly with nix run, and copy nix shell commands from the context menu
+    Repository: https://github.com/iahccc/NixPackageRunner
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: nix, jq, wl-clipboard
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/440
+
+  Format Color Picker
+    ID: formatColorPicker
+    Category: utilities
+    Author: Incognitux
+    Description: Choose color format before picking
+    Repository: https://github.com/Incognitux/dms-format-color-picker
+    Capabilities: control-center, dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/441
+
+  Audio Inhibit
+    ID: audioInhibit
+    Category: monitoring
+    Author: Tobias Hommel
+    Description: Enables idle inhibitor if audio is playing.
+    Repository: https://github.com/insecure/dms-audio-inhibit
+    Capabilities: audio, monitoring
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/442
+
+  EnderBackup
+    ID: desktopBackup
+    Category: system
+    Author: iquantecho
+    Description: Verified desktop configuration backups for DMS, with configurable contents and bar styles.
+    Repository: https://github.com/iquantecho/enderbackup
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python, tar, systemd, xdg-utils
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/903
+
+  EnderPulse
+    ID: enderPulse
+    Category: appearance
+    Author: iquantecho
+    Description: A responsive Cava visualizer for DankBar and the desktop
+    Repository: https://github.com/iquantecho/enderpulse
+    Capabilities: daemon, dankbar-widget, desktop-widget, variants
+    Compositors: any
+    Dependencies: cava
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/788
+    Related: Cava Visualizer, Dank Audio Visualizer, AudioFX
+
+  VoxType OSD
+    ID: voxTypeOsd
+    Category: monitoring
+    Author: Iris Blur
+    Description: VoxType recording and transcription waveform OSD
+    Repository: https://github.com/irisblur17/dms-voxtype-osd
+    Capabilities: monitoring
+    Compositors: any
+    Dependencies: voxtype, voxtype-audio-bridge
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/704
+    Related: Voxtype, VoxType Activity Overlay, VoxType Recording Overlay
+
+  Hostname Widget
+    ID: hostnameWidget
+    Category: utilities
+    Author: irunatbullets
+    Description: A widget for displaying your hostname
+    Repository: https://github.com/irunatbullets/hostname-widget
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/443
+
+  Cardwire Manager
+    ID: cardwireManager
+    Category: system
+    Author: Jan Kelemen
+    Description: DankBar widget for selecting Cardwire GPU modes and showing the currently active mode.
+    Repository: https://github.com/jankelemen/cardwire-manager
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: cardwire
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/657
+
+  Display Profile Manager
+    ID: displayProfileManager
+    Category: system
+    Author: Jan Kelemen
+    Description: DankBar widget for selecting DMS output profiles.
+    Repository: https://github.com/jankelemen/dank-display-profile-manager
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/577
+    Related: Display Profile, Niri Display Settings
+
+  AMD GPU Monitor Revive
+    ID: amdGpuMonitorRevive
+    Category: monitoring
+    Author: JDKamalakar.
+    Description: Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage with updated UI.
+    Repository: https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive
+    Capabilities: dankbar-widget, monitoring
+    Compositors: any
+    Dependencies: amdgpu_top
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/445
+    Related: AMD GPU Monitor, Intel GPU Monitor
+
+  Caffeine Redesigned
+    ID: caffeineRedesigned
+    Category: utilities
+    Author: JDKamalakar
+    Description: Keep your screen awake and prevent idle sleep with a single click.
+    Repository: https://github.com/JDKamalakar/DMS-Caffeine
+    Capabilities: control-center, dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/729
+
+  DMS Screenshot
+    ID: dmsScreenshot
+    Category: utilities
+    Author: JDKamalakar
+    Description: Control DMS screenshot actions from the Widget & Control Center
+    Repository: https://github.com/JDKamalakar/DMS-Screenshot
+    Capabilities: dankbar-widget, control-center
+    Compositors: any
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/446
+    Related: Quick Capture, Screen Capture
+
+  DNS Switcher
+    ID: dnsSwitcher
+    Category: utilities
+    Author: JDKamalakar
+    Description: Switch system DNS providers and monitor network status.
+    Repository: https://github.com/JDKamalakar/DMS-DNS_Switcher
+    Capabilities: dankbar-widget, control-center
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/447
+
+  Fullscreen Power Menu
+    ID: fullscreenPowerMenu
+    Category: utilities
+    Author: JDKamalakar
+    Description: Material 3 inspired fullscreen Power Menu triggered via IPC
+    Repository: https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu
+    Capabilities: power, ipc
+    Compositors: any
+    Upvotes: 7
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/448
+    Related: SessionEdge
+
+  GitHub Heatmap Revive
+    ID: githubHeatmapRevive
+    Category: utilities
+    Author: JDKamalakar
+    Description: Display GitHub contribution heatmap with color-coded activity levels
+    Repository: https://github.com/JDKamalakar/DMS-GitHub_HeatMap
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/449
+    Related: GitHub Heatmap Plus
+
+  LiveChart Schedule
+    ID: liveChartSchedule
+    Category: utilities
+    Author: JDKamalakar
+    Description: Displays LiveChart anime schedule data pulled from a local browser session.
+    Repository: https://github.com/JDKamalakar/DMS-LiveChart.me
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python3, browser_cookie3
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/450
+
+  Niri Display Settings Advance
+    ID: niriDSA
+    Category: utilities
+    Author: JDKamalakar
+    Description: Quickly toggle and configure display outputs in the Niri Wayland compositor
+    Repository: https://github.com/jdkamalakar/DMS-Niri_Display_Settings
+    Capabilities: control-center, dankbar-widget
+    Compositors: niri
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/730
+    Related: Niri Display Settings
+
+  Proton VPN
+    ID: protonVPN
+    Category: utilities
+    Author: JDKamalakar
+    Description: Proton VPN client using pVPN backend CLI.
+    Repository: https://github.com/JDKamalakar/DMS-Proton_VPN
+    Capabilities: dankbar-widget, control-center
+    Compositors: any
+    Dependencies: pvpn
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/731
+    Related: Mihomo VPN
+
+  Quick Tote
+    ID: quickTote
+    Category: utilities
+    Author: JDKamalakar
+    Description: Quick access to recent downloads, screenshots, and pinned files (CROS Tote style).
+    Repository: https://github.com/JDKamalakar/DMS-Quick_Tote
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/451
+
+  Screen Capture Toolbar
+    ID: screenCaptureToolbar
+    Category: utilities
+    Author: JDKamalakar
+    Description: Premium pill-shaped toolbar for quick screenshots and screen recording
+    Repository: https://github.com/JDKamalakar/DMS-ScreenCapture_Toolbar
+    Capabilities: ipc
+    Compositors: any
+    Dependencies: gpu screen recorder, slurp, grim, wl-clipboard, satty
+    Upvotes: 7
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/452
+    Related: Screen Recorder, Screen Recorder X, Screen Recorder YS
+
+  Steam Big Picture
+    ID: dankConsoleSteam
+    Category: utilities
+    Author: JessVolet
+    Description: A simple widget to start steam in big picture mode with custom commands.
+    Repository: https://github.com/JessVolet/DankConsoleModeWithSteam
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: steam, gamescope
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/658
+
+  VMonitorSRV
+    ID: vMonitorSRV
+    Category: system
+    Author: JessVolet
+    Description: Monitor remote Linux servers running Glances: CPU, RAM, Btrfs subvolumes, network interfaces, and Podman containers.
+    Repository: https://github.com/JessVolet/VMonitorSRV
+    Capabilities: dankbar-widget, desktop-widget
+    Compositors: any
+    Dependencies: python3, glances, glances-dotfiles
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/751
+
+  Display Mirror
+    ID: displayMirror
+    Category: utilities
+    Author: jfchenier
+    Description: Mirror niri displays using wl-mirror from the control center and bar
+    Repository: https://github.com/jfchenier/dms-display-mirror
+    Capabilities: control-center
+    Compositors: niri
+    Dependencies: wl-mirror
+    Upvotes: 2
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/453
+
+  Niri Screenshot
+    ID: niriScreenshot
+    Category: utilities
+    Author: jfchenier
+    Description: Control Niri screenshot actions from the Control Center
+    Repository: https://github.com/jfchenier/dms-niri-screenshot
+    Capabilities: dankbar-widget, control-center
+    Compositors: niri
+    Dependencies: niri
+    Upvotes: 1
+    Status: broken, unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/454
+
+  Easy Effects Profile Switcher
+    ID: easyEffects
+    Category: utilities
+    Author: jonkristian
+    Description: Quick switch between Easy Effects audio profiles
+    Repository: https://github.com/jonkristian/dms-easyeffects
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: easyeffects
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/455
+
+  Pulsar X3 Mouse
+    ID: pulsarX3
+    Category: utilities
+    Author: jonkristian
+    Description: Monitor and control your Pulsar X3 gaming mouse
+    Repository: https://github.com/jonkristian/dms-pulsar-x3
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: pulsar-x3
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/456
+
+  Wayfire Workspace
+    ID: wayfireWorkspace
+    Category: utilities
+    Author: joyanhui
+    Description: Display Wayfire workspace switcher in the bar with active/occupied indicators and click-to-switch
+    Repository: https://github.com/joyanhui/dms-ext-wayfire-workspace
+    Capabilities: dankbar-widget
+    Compositors: wayfire
+    Dependencies: python3
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/668
+
+  Unified Taskbar
+    ID: unifiedTaskbar
+    Category: utilities
+    Author: Joshua Landau
+    Description: Running apps grouped by workspace with per-workspace pills
+    Repository: https://github.com/jslandau/dms-unified-taskbar
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/457
+
+  DeepSeek Balance
+    ID: deepseekBalance
+    Category: monitoring
+    Author: eugene :)
+    Description: Display your DeepSeek API account balance in the taskbar
+    Repository: https://github.com/juliuswms/dms-deepseekbalance
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: jq
+    Upvotes: 1
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/458
+    Related: DeepSeek Usage, AI Quotas
+
+  mpvpaper Video Wallpaper
+    ID: mpvpaperWallpaper
+    Category: appearance
+    Author: kanghengliu
+    Description: Video wallpaper support using mpvpaper
+    Repository: https://github.com/kanghengliu/dms-mpvpaper
+    Capabilities: wallpaper, animation, dankbar-widget
+    Compositors: niri, hyprland
+    Dependencies: mpvpaper
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/459
+    Related: Linux Wallpaper Engine, MpvPaper Plugin
+
+  Lyrics on Panel
+    ID: lyricsOnPanel
+    Category: utilities
+    Author: Kangwei(Anicaa) Zhu
+    Description: [Backend setup required!] A widget that displays the lyrics of the currently playing song from Spotify, Netease Cloud Music, Elisa, etc., on any location of your desktop.
+    Repository: https://github.com/KangweiZhu/lyrics-on-panel
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/460
+    Related: Music Lyrics, Live Lyrics, LyricsEmbed
+
+  Trash Bin
+    ID: trashBin
+    Category: utilities
+    Author: kerojiang
+    Description: Monitor and manage your system trash directly from your status bar. Features real-time monitoring, quick access, empty trash button, and auto-clean configuration.
+    Repository: https://github.com/kerojiang/dms-transBin
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/461
+
+  LaTeX to SVG
+    ID: latex2svg
+    Category: utilities
+    Author: KinnariyaMamaTanha
+    Description: Convert LaTeX formulas to portable SVG from Dank Bar, with a sharp preview, configurable saving, and image clipboard copy.
+    Repository: https://github.com/KinnariyaMamaTanha/latex2svg
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python3, latex, dvisvgm
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/709
+
+  Jira Tickets
+    ID: dmsJira
+    Category: productivity
+    Author: Klievan
+    Description: Assigned Jira Cloud tickets in the DankBar with quick actions — open, transition status, comment, copy branch name — plus optional new-assignment and @mention notifications.
+    Repository: https://github.com/Klievan/dms-jira
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: wl-clipboard, libnotify
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/462
+
+  Dank Album Widget
+    ID: dankAlbumWidget
+    Category: media
+    Author: kmf
+    Description: Square album-cover desktop widget with Material play, previous, and next over MPRIS
+    Repository: https://github.com/kmf/dank-album-widget
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/826
+    Related: Media Player
+
+  Obsidian Vault Search
+    ID: obsidianSearch
+    Category: utilities
+    Author: kmf
+    Description: Full-text search across your Obsidian vaults via the Obsidian CLI, directly from the DMS launcher
+    Repository: https://github.com/kmf/dms-obsidian-search
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: obsidian, xdg-open
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/463
+
+  Browser Tabs Launcher
+    ID: tabsLauncher
+    Category: utilities
+    Author: kmf
+    Description: List and activate open browser tabs from the DMS launcher via tabctl
+    Repository: https://github.com/kmf/dms-tabs-launcher
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: tabctl
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/814
+
+  Sit/Stand Reminder
+    ID: sitStandReminder
+    Category: productivity
+    Author: Justus
+    Description: Reminds you to alternate between sitting and standing with configurable, idle-aware timers.
+    Repository: https://github.com/knappancash/SitStandReminder
+    Capabilities: daemon, dankbar-widget, control-center
+    Compositors: any
+    Dependencies: notify-send
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/666
+
+  DMS Keyboard Layout Search
+    ID: keyboardLayoutSearch
+    Category: utilities
+    Author: korbash
+    Description: Find apps even when you type their names in another keyboard layout.
+    Repository: https://github.com/korbash/dms-keyboard-layout-search
+    Capabilities: daemon
+    Compositors: any
+    Dependencies: python3, libxkbcommon, xkeyboard-config, xkbcli
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/956
+
+  Mihomo VPN
+    ID: mihomoVpn
+    Category: system
+    Author: korbash
+    Description: Monitor and control Mihomo proxy groups, switch nodes, and run latency checks from DankBar
+    Repository: https://github.com/korbash/mihomo-dms-widget
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: mihomo, curl, jq
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/744
+    Related: Proton VPN, AdGuard VPN
+
+  Stock Manager
+    ID: stockManager
+    Category: Stock
+    Author: LeeMeng
+    Description: Simple Chinese A-share stock market monitoring plugin
+    Repository: https://github.com/leemeng0x61/stockManager
+    Capabilities: dank-widget
+    Compositors: any
+    Dependencies: curl, iconv
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/464
+    Related: Markets
+
+  LyricsEmbed
+    ID: lyricsEmbed
+    Category: utilities
+    Author: lemonmon
+    Description: An embedded-lyrics-first synced lyrics plugin for DMS: embedded LRC extraction, multi-source lyrics, bilingual split view, per-song offset tuning, zh/en interface.
+    Repository: https://github.com/Lemon-mon-254/dms-plugin-Lyrics
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: ffprobe
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/824
+    Related: Music Lyrics, Live Lyrics, Lyrics on Panel
+
+  Proxy Traffic
+    ID: proxyTraffic
+    Category: monitoring
+    Author: lemonmon
+    Description: Realtime throughput and cumulative traffic of your local proxy, tracked via nftables
+    Repository: https://github.com/Lemon-mon-254/dms-proxy-traffic
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: nft
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/823
+
+  TS6 Monitor
+    ID: tsMonitor
+    Category: monitoring
+    Author: Lemon-mon-254
+    Description: TeamSpeak 6 voice status monitor for the bar: live mic/mute/away state, channel members with avatars and volume bars, one-click virtual-key controls, and an on-screen volume OSD via TS6 Remote Apps.
+    Repository: https://github.com/Lemon-mon-254/dms-plugin-TS6Monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: pactl
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/874
+
+  Dcal Upcoming Event
+    ID: dcalUpcoming
+    Category: utilities
+    Author: leoamaro01
+    Description: Shows your next calendar event from dcal with a live countdown timer. Displays event name and time remaining, with Now indicator for current events. Click to toggle dcal UI.
+    Repository: https://github.com/leoamaro01/dms-dcal
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: dcal, jq
+    Upvotes: 9
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/465
+
+  DMS Sessionizer
+    ID: dmsSessionizer
+    Category: utilities
+    Author: leonardofranco01
+    Description: Create tmux sessions for your projects
+    Repository: https://github.com/leonardofranco01/dms-sessionizer
+    Capabilities: launcher, command-execution, shell
+    Compositors: hyprland
+    Dependencies: tmux
+    Upvotes: 1
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/466
+
+  Pure Lyrics
+    ID: pureLyrics
+    Category: media
+    Author: lildengzi
+    Description: A minimal floating desktop widget that displays real-time synced lyrics from multiple sources.
+    Repository: https://github.com/lildengzi/pureLyrics
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/769
+
+  Pass
+    ID: dmsPass
+    Category: utilities
+    Author: LouisKottmann
+    Description: DMS Launcher plugin to fuzzy-search Pass entries and copy them to the clipboard.
+    Repository: https://github.com/LouisKottmann/dms-pass
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: pass
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/467
+    Related: Vault
+
+  Audio Slots IPC
+    ID: audioSlots
+    Category: utilities
+    Author: lpv11
+    Description: Daemon plugin for cycling saved output/input device slots and toggling focused-app mute via DMS IPC.
+    Repository: https://github.com/lpv11/dms-audio-slots
+    Capabilities: audio, ipc, daemon
+    Compositors: hyprland
+    Dependencies: pactl, awk
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/468
+
+  Show Desktop
+    ID: showDesktop
+    Category: utilities
+    Author: lpv11
+    Description: Clickable bar icon that adds windows-life show desktop function. For Hyprland.
+    Repository: https://github.com/lpv11/dms-hypr-show-desktop
+    Capabilities: dankbar-widget
+    Compositors: hyprland
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/469
+
+  Media Controls Plus
+    ID: mediaControlsPlus
+    Category: utilities
+    Author: lpv11
+    Description: Media controls with full bar volume scroll. Disables workspace scroll.
+    Repository: https://github.com/lpv11/dms-media-controls-plus
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/470
+    Related: Media Control Plus
+
+  Hyprwhspr Voice Overlay
+    ID: hyprwhsprVoiceOverlay
+    Category: utilities
+    Author: lucianosrp
+    Description: On-screen voice visualizer for hyprwhspr. A large mirrored equalizer, driven by the live microphone level, that fades in only while hyprwhspr is recording.
+    Repository: https://github.com/lucianosrp/HyprwhsprVoiceOverlay
+    Capabilities: desktop-widget
+    Compositors: any
+    Dependencies: hyprwhspr
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/775
+
+  ROG Control
+    ID: rogControl
+    Category: system
+    Author: lucianosrp
+    Description: Everything asusctl does for ASUS ROG laptops: Aura keyboard RGB with LED colour correction, Slash ledbar, platform profiles, CPU/GPU power-limit tuning, a fan-curve editor, charge limit, GPU MUX/Eco and firmware toggles, with a live illustration of your laptop. Talks to asusd directly over D-Bus.
+    Repository: https://github.com/lucianosrp/DmsRogControl
+    Capabilities: dankbar-widget, control-center
+    Compositors: any
+    Dependencies: asusctl, jq
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/954
+
+  Dank Calendar Plus
+    ID: dankCalendarPlus
+    Category: utilities
+    Author: luckjokerwang
+    Description: Next-event countdown & full tasks manager for dcal: dual-mode bar pill, interactive agenda & tasks popout with priority tagging and instant synchronization
+    Repository: https://github.com/luckjokerwang/dms-dankcalendar
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: dcal, jq, python3
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/809
+    Related: Dank Calendar Agenda
+
+  Alarm Clock
+    ID: alarmClock
+    Category: utilities
+    Author: lucyfire
+    Description: An alarm clock widget
+    Repository: https://github.com/lucyfire/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: qt6-multimedia
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/472
+
+  Display Settings
+    ID: displaySettings
+    Category: utilities
+    Author: lucyfire
+    Description: Turn on/off displays for Hyprland
+    Repository: https://github.com/lucyfire/dms-plugins
+    Capabilities: manage-displays
+    Compositors: hyprland
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/473
+
+  Gitmoji Launcher
+    ID: gitmojiLauncher
+    Category: utilities
+    Author: lucyfire
+    Description: Search and copy gitmojis from https://gitmoji.dev
+    Repository: https://github.com/lucyfire/dms-plugins
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: wl-copy
+    Upvotes: 1
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/474
+
+  Wallpaper Discovery
+    ID: wallpaperDiscovery
+    Category: utilities
+    Author: lucyfire
+    Description: Search and download wallpapers
+    Repository: https://github.com/lucyfire/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: curl
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/475
+    Related: Spotlight Wallpapers, Wallarchy
+
+  Orbit Bluetooth
+    ID: orbitBluetooth
+    Category: system
+    Author: lung595
+    Description: A planetary Bluetooth manager: devices float in orbit around your machine, drag one to the center to connect. Headphone noise control, battery time left. Control Center, bar and desktop.
+    Repository: https://github.com/lung595/orbitBluetooth
+    Capabilities: daemon, dankbar-widget, control-center, desktop-widget
+    Compositors: any
+    Dependencies: bluez, qt6-multimedia, python3
+    Upvotes: 4
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/945
+
+  Sands
+    ID: smartTimer
+    Category: productivity
+    Author: lung595
+    Description: Natural-language timers from the launcher (“timer 12 min pasta”, “at 6pm”), a bar pill with a draining ring, and a floating hourglass panel whose sand is synced to the remaining time. Multiple named timers, pause freezes the hourglass, alarm sound of your choice.
+    Repository: https://github.com/lung595/Sands
+    Capabilities: dankbar-widget, launcher, daemon
+    Compositors: any
+    Dependencies: pw-play
+    Upvotes: 5
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/943
+    Related: Dank Pomodoro Timer, Time Manager
+
+  SPlayerLyrics
+    ID: splayerLyrics
+    Category: media
+    Author: lycbowen
+    Description: Display lyrics from SPlayer in Dank Material Shell.
+    Repository: https://github.com/lycbowen/SPlayerLyrics
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: qt6-websockets
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/575
+    Related: Music Lyrics, Live Lyrics, SPlayer Lyrics (Desktop)
+
+  Fd Search
+    ID: fdSearch
+    Category: utilities
+    Author: Massimo Pavoni
+    Description: Search files using fd without indexing filesystem
+    Repository: https://codeberg.org/massimopavoni/DankFdSearch
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: fd
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/476
+    Related: Baloo Search
+
+  Wallpaper of the Day
+    ID: wallpaperBing
+    Category: appearance
+    Author: maxb
+    Description: A new fresh daily wallpaper downloaded from a famous portal
+    Repository: https://github.com/max72bra/DankPluginBingWallpaper
+    Capabilities: wallpaper-downloader, wallpaper-set, daemon
+    Compositors: any
+    Dependencies: curl, inotify-tools
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/477
+    Related: Wallpaper of the Day (Widget), Spotlight Wallpapers
+
+  Wallpaper of the Day (Widget)
+    ID: wallpaperBingWidget
+    Category: appearance
+    Author: maxb
+    Description: A new fresh daily wallpaper downloaded from a famous portal (Widget)
+    Repository: https://github.com/max72bra/DankPluginBingWallpaperWidget
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: inotify-tools
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/478
+    Related: Wallpaper of the Day, Spotlight Wallpapers
+
+  GitHub Heatmap Plus
+    ID: githubHeatmapPlus
+    Category: utilities
+    Author: maxlen727
+    Description: GitHub contribution heatmap for DankBar and your desktop, with color-coded activity levels and theme-aware styling.
+    Repository: https://github.com/maxlen727/DMS-GitHub_HeatMap_Plus
+    Capabilities: dankbar-widget, desktop-widget
+    Compositors: any
+    Dependencies: dms
+    Upvotes: 4
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/640
+    Related: GitHub Heatmap Revive
+
+  Canvas Grades
+    ID: canvasGrades
+    Category: utilities
+    Author: mcwiseman97
+    Description: Courses, grades, upcoming assignments, missing work, and announcements from Canvas LMS
+    Repository: https://github.com/mcwiseman97/dms-canvas-plugin
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland
+    Dependencies: curl, jq, bash
+    Upvotes: 1
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/479
+
+  Flatpak Updates
+    ID: flatpakUpdates
+    Category: utilities
+    Author: Michael Erdely
+    Description: Check for and install Flatpak Updates
+    Repository: https://github.com/merdely/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: flatpak
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/480
+    Related: Shelly Updater
+
+  SSH Connections
+    ID: sshConnections
+    Category: utilities
+    Author: Michael Erdely
+    Description: SSH to configured servers from the Launcher
+    Repository: https://github.com/merdely/dms-plugins
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: ssh
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/481
+
+  Dooit Plugin
+    ID: dooitPlugin
+    Category: utilities
+    Author: MetalCar
+    Description: This plugin shows todays task and the oldest five without due date from dooit.
+    Repository: https://github.com/MetalCar/dms-dooit-widget
+    Capabilities: dankbar-widget
+    Compositors: niri
+    Dependencies: dooit
+    Upvotes: 1
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/483
+
+  Quran Widget
+    ID: quranWidget
+    Category: utilities
+    Author: MezoAhmedII
+    Description: Shows a random Quranic Ayah / verse on the desktop
+    Repository: https://codeberg.org/MezoAhmedII/quranWidget
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/484
+
+  Codex Usage
+    ID: codexUsage
+    Category: monitoring
+    Author: mir4zul
+    Description: Two progress rings for locally recorded Codex five-hour and weekly usage, with remaining percentages and reset countdowns.
+    Repository: https://github.com/mir4zul/codex-usage
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python3
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/872
+
+  Process List
+    ID: processList
+    Category: monitoring
+    Author: mith
+    Description: Desktop overlay widget for live process monitoring with grouping, sorting, and scope filters
+    Repository: https://github.com/Mithgroth/dms-process-list
+    Capabilities: desktop-widget
+    Compositors: any
+    Dependencies: dgop
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/485
+
+  Attention Badges
+    ID: attentionBadges
+    Category: productivity
+    Author: Mirko Köster
+    Description: Per-app bar badges for what happened since you last focused that app, cleared by focusing its window — not an unread counter. Every watched app is a small JSON provider file, so the plugin itself knows nothing about any particular program.
+    Repository: https://github.com/mkoester/dms-attention-badges
+    Capabilities: daemon, dankbar-widget, ipc
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/762
+
+  herdr Agent Monitor
+    ID: herdrAgentMonitor
+    Category: monitoring
+    Author: Mor-dev
+    Description: Shows live agent status (working/idle/blocked/done) across herdr panes in the bar, click one to focus its pane
+    Repository: https://github.com/Mor-dev/herdr-agent-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: herdr
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/839
+
+  Wallpaper Carousel
+    ID: wallpaperCarousel
+    Category: utilities
+    Author: yngwe
+    Description: Browse and pick wallpapers with a fullscreen skewed carousel overlay
+    Repository: https://github.com/motor-dev/wallpaperCarousel
+    Capabilities: wallpaper
+    Compositors: any
+    Upvotes: 21
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/486
+    Related: Profiles, Wallhaven Carousel
+
+  Prayer Times
+    ID: prayerTimes
+    Category: utilities
+    Author: muadz
+    Description: Display Islamic prayer times from Aladhan API
+    Repository: https://github.com/muadzmo/prayertimes
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/487
+
+  ImageConverter
+    ID: imageConverter
+    Category: utilities
+    Author: Murilo
+    Description: Convert images between formats (PNG, JPG, WEBP, BMP, TIFF) from the DankBar
+    Repository: https://github.com/murilo-gotardo/dms-image-converter
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: imagemagick, wl-clipboard
+    Upvotes: 1
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/488
+
+  Nexus AI
+    ID: nexusAi
+    Category: utilities
+    Author: myNicole98
+    Description: AI assistant, made to be useful
+    Repository: https://github.com/myNicole98/NexusAI-DMS
+    Capabilities: daemon
+    Compositors: any
+    Dependencies: curl
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/842
+    Related: AI Assistant, Sathi.AI, DMS Agent
+
+  Mobile Network
+    ID: modemManager
+    Category: networking
+    Author: NaClwww
+    Description: Manage mobile broadband with NetworkManager: toggle the WWAN radio, view live modem, operator, and signal status, and create, edit, and activate APN profiles from the Control Center.
+    Repository: https://github.com/NaClwww/dms-modem-plugin
+    Capabilities: daemon, control-center
+    Compositors: any
+    Dependencies: nmcli, mmcli
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/767
+
+  Campeonatos BR
+    ID: brSoccer
+    Category: utilities
+    Author: Nadoutti
+    Description: Próximos jogos de Libertadores, Sudamericana e Brasileirão
+    Repository: https://github.com/Nadoutti/nadotti-br-soccer-plugin
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland
+    Dependencies: curl
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/489
+
+  AMD GPU Monitor
+    ID: amdGpuMonitor
+    Category: monitoring
+    Author: navidagz
+    Description: Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
+    Repository: https://github.com/navidagz/dms-amd-gpu-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: amdgpu_top
+    Upvotes: 10
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/490
+    Related: AMD GPU Monitor Revive, Intel GPU Monitor
+
+  Hyprland Submap Indicator
+    ID: hyprlandSubmapIndicator
+    Category: monitoring
+    Author: _nderscore
+    Description: Shows a customizable indicator when a Hyprland submap is active
+    Repository: https://github.com/nderscore/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: hyprland
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/492
+
+  Lenovo Battery Settings
+    ID: dmsLenovoBatterySettings
+    Category: system
+    Author: neoscaler
+    Description: Manage Lenovo battery settings like conservation mode
+    Repository: https://github.com/neoscaler/dms-lenovo-battery-settings
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: ideapad_laptop, polkit-agent
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/493
+    Related: Game Controller Battery, Battery Plus
+
+  DMS Desktop Countdown
+    ID: dmsDesktopCountdown
+    Category: utilities
+    Author: nfoert
+    Description: Allows creating desktop widget countdowns with progress, view options, and the ability to only count certain days in a week
+    Repository: https://github.com/nfoert/dms-desktop-countdown
+    Capabilities: desktop
+    Compositors: niri, hyprland
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/494
+
+  Backlight Idle Actions
+    ID: backlightIdleActions
+    Category: system
+    Author: nfrastack
+    Description: Battery/AC-aware pre-blank dim with restore on resume for screen and keyboard. Layers on top of DMS's existing idle pipeline.
+    Repository: https://github.com/nfrastack/dms-backlightIdleActions
+    Capabilities: 
+    Compositors: niri, hyprland
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/496
+
+  Night Mode Control
+    ID: nightModeControl
+    Category: system
+    Author: Nfrastack
+    Description: Control night mode parameters from bar and Control Center
+    Repository: https://github.com/nfrastack/dms-nightModeControl
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland, sway, river
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/497
+
+  TLP Control
+    ID: tlpControl
+    Category: system
+    Author: nfrastack
+    Description: Battery health monitor + TLP charge threshold/mode controls.
+    Repository: https://github.com/nfrastack/dms-tlpControl
+    Capabilities: dankbar-widget, control-center
+    Compositors: niri, hyprland
+    Dependencies: tlp, tee
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/498
+    Related: TLP Power Profile
+
+  ZeroTier Manager
+    ID: zerotierManager
+    Category: networking
+    Author: nfrastack
+    Description: Show ZeroTier network status in the bar and join/leave/route networks from a popout.
+    Repository: https://github.com/nfrastack/dms-zerotierManager
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland
+    Dependencies: zerotier-cli
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/499
+
+  Modes
+    ID: modes
+    Category: system
+    Author: Nicolas Chartier
+    Description: Android-style Modes: bundle Do Not Disturb, theme, night light, power profile, audio devices and commands into modes you switch on manually, for a set time, or on a schedule. Settings are restored when a mode ends.
+    Repository: https://github.com/l3all/dms-modes
+    Capabilities: daemon, dankbar-widget, control-center
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/1002
+
+  Ephemera
+    ID: ephemera
+    Category: utilities
+    Author: nicolasgarcia214
+    Description: Ephemeral AI chat — ask quick questions, keep nothing
+    Repository: https://github.com/nicolasgarcia214/Ephemera
+    Capabilities: slideout, ai
+    Compositors: any
+    Dependencies: curl, wl-copy
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/500
+    Related: Sathi.AI
+
+  Obsidian Capture
+    ID: obsidianCapture
+    Category: utilities
+    Author: nishantg96
+    Description: Capture a note or task into today's daily note from anywhere, with a bar widget showing open tasks. Built for Obsidian; works with any folder of Markdown files.
+    Repository: https://github.com/nishantg96/dms-obsidian-capture
+    Capabilities: daemon, dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/891
+
+  Network Status
+    ID: netStatus
+    Category: monitoring
+    Author: Noah
+    Description: Shows your local machine IP, active VPN tunnel IP, and optional Tailscale IP in the bar. Right-click to cycle between them.
+    Repository: https://github.com/noahm-05/dms-net-status
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: iproute2
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/871
+
+  Live Lyrics
+    ID: liveLyrics
+    Category: utilities
+    Author: noahpolimon
+    Description: Display synced lyrics on your DankBar (Music Lyrics fork)
+    Repository: https://gitlab.com/noahpolimon/dms-plugin-livelyrics
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/501
+    Related: Music Lyrics, Lyrics on Panel, SPlayerLyrics, SPlayer Lyrics (Desktop), LyricsEmbed
+
+  Dank Stopwatch
+    ID: dankStopwatch
+    Category: utilities
+    Author: NordicsSys
+    Description: A modern glassmorphic stopwatch pill for DankMaterialShell with laps, copy time, and a polished popout toolbar.
+    Repository: https://github.com/NordicsSys/dankStopwatch
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/502
+
+  Dank Cleaner
+    ID: dankCleaner
+    Category: utilities
+    Author: NordicsSys
+    Description: Safe one-click cleaner plugin for DankMaterialShell.
+    Repository: https://github.com/NordicsSys/dankCleaner
+    Capabilities: safe-cleanup, large-file-scan, disk-analyzer
+    Compositors: any
+    Dependencies: bash, find, du, awk, tail, rm
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/503
+
+  Dank System Doctor
+    ID: dankSystemDoctor
+    Category: system
+    Author: noxius
+    Description: AI-powered system health monitor. Tracks CPU, RAM, disk, GPU & temp; detects pending updates (apt/dnf/pacman/brew); one-click maintenance and snapshot guardrails; Ollama diagnostics with triage playbooks.
+    Repository: https://github.com/NordicsSys/DankSystemDoctor
+    Capabilities: system-monitor, ai-diagnostics, log-viewer, process-manager, updates, maintenance
+    Compositors: any
+    Dependencies: bash, journalctl, ps, free, df
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/504
+
+  USB Manager
+    ID: usbManager
+    Category: system
+    Author: NordicsSys
+    Description: Bar widget: monitor removable USB drives, mount/unmount, eject, format (FAT32/exFAT/ext4), resize partitions; notifications on plug/unplug via udisks.
+    Repository: https://github.com/NordicsSys/dms-usb-manager
+    Capabilities: dankbar-widget, notify
+    Compositors: any
+    Dependencies: udisks2, bash, lsblk, parted, dosfstools, e2fsprogs, exfatprogs, polkit
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/505
+
+  Extended Network Toggle
+    ID: extendedNetworkToggle
+    Category: system
+    Author: Marco Realacci
+    Description: Network toggle with Ethernet, WiFi, and Other interfaces (bridges, VLANs, bonds)
+    Repository: https://github.com/notherealmarco/dms-plugin-extended-network
+    Capabilities: control-center
+    Compositors: any
+    Dependencies: nmcli
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/506
+
+  Battery & Power OSD
+    ID: batteryOSD
+    Category: system
+    Author: Samir Badaila
+    Description: Material YOU inspired On-Screen Display popup and liquid wave indicator for battery charging
+    Repository: https://github.com/notsopreety/batteryOSD
+    Capabilities: daemon
+    Compositors: any
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/780
+
+  Keyboard Backlight OSD
+    ID: kbdBacklightOSD
+    Category: system
+    Author: Samir Badaila
+    Description: On-Screen Display popup and keyboard shortcut controls for laptop keyboard backlight brightness
+    Repository: https://github.com/notsopreety/kbdBacklightOSD
+    Capabilities: daemon
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/778
+
+  Material Player & Lyrics
+    ID: materialPlayer
+    Category: media
+    Author: Samir Badaila
+    Description: Desktop media player widget with real-time synced lyrics and Material You 3 design
+    Repository: https://github.com/notsopreety/materialPlayer
+    Capabilities: desktop-widget
+    Compositors: any
+    Dependencies: cava, python
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/743
+
+  Material Weather
+    ID: materialWeather
+    Category: appearance
+    Author: notsopreety (Samir Badaila)
+    Description: Android Material You 3 styled weather widget with current conditions, forecasts, and dynamic shapes
+    Repository: https://github.com/notsopreety/materialWeather
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/738
+    Related: Weather Art, Dank Desktop Weather
+
+  Local Services
+    ID: localServices
+    Category: monitoring
+    Author: NyllRE
+    Description: Passive discovery of local TCP services (ports 1000-9999): dev servers auto-surface with live favicons; pin ports or ranges to track them on the DankBar.
+    Repository: https://github.com/NyllRE/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: iproute2
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/794
+
+  Dank Audio Visualizer
+    ID: dankAudioVisualizer
+    Category: media
+    Author: odtgit
+    Description: Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from Noctalia's fancy-audiovisualizer by Lemmy / Noctalia Team.
+    Repository: https://github.com/odtgit/DankAudioVisualizer
+    Capabilities: desktop-widget
+    Compositors: any
+    Dependencies: cava
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/508
+    Related: Cava Visualizer, EnderPulse, AudioFX
+
+  MangoWM Layout Manager
+    ID: mangoWmLayoutManager
+    Category: utilities
+    Author: omarluq
+    Description: Switch MangoWM layouts from DankBar with visual previews, configurable click shortcuts, and scroll cycling.
+    Repository: https://github.com/omarluq/DMSMangoWCLayoutManager
+    Capabilities: dankbar-widget
+    Compositors: mangowc
+    Dependencies: mmsg
+    Upvotes: 4
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/851
+
+  OrangeDeck Bitcoin Dashboard
+    ID: orangedeck
+    Category: monitoring
+    Author: satoshoe
+    Description: Live view of the Bitcoin mempool: the latest block in the middle, the mempool as a pile below, new transactions raining in from above. Feed, clock, miner, market and explorer views. Data comes from mempool.space or a mempool instance you set, the market view also from Binance, OKX and Bybit. Starts the optional OrangeDeck service if it is installed.
+    Repository: https://github.com/orangedeck-dev/dms-plugin
+    Capabilities: daemon, dankbar-widget, control-center, desktop-widget
+    Compositors: any
+    Dependencies: qt6-websockets
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/947
+
+  Audio Port Switcher
+    ID: audioPortSwitcher
+    Category: audio
+    Author: osvaldx
+    Description: Switch audio ports on a 3.5mm combo jack (internal mic vs headset mic) dynamically.
+    Repository: https://github.com/osvaldx/Audio-Port-Switcher
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: pactl
+    Upvotes: 5
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/595
+    Related: Audio Switcher
+
+  Dank Bitwarden
+    ID: dankBitwarden
+    Category: utilities
+    Author: Parthiv Seetharaman
+    Description: Search bitwarden entries from rbw.
+    Repository: https://github.com/pacman99/DankBitwarden
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: rbw
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/509
+    Related: Vault, Bitwarden Dankbar
+
+  DankPinentry
+    ID: dankPinentry
+    Category: utilities
+    Author: Parthiv Seetharaman
+    Description: GPG/SSH passphrase entry with native DMS modal.
+    Repository: https://github.com/pacman99/DankPinentry
+    Capabilities: authentication, ipc, daemon
+    Compositors: any
+    Upvotes: 1
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/510
+
+  Discord Voice Widget
+    ID: discordVoice
+    Category: social
+    Author: PandorasFox
+    Description: Discord voice call overlay — shows participants as circular avatars with speaking/mute/deafen indicators. Supports mute/deafen keybinds and push-to-talk.
+    Repository: https://github.com/PandorasFox/dms-discord-widget
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python3
+    Upvotes: 6
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/511
+
+  CodeIsland
+    ID: codeIsland
+    Category: utilities
+    Author: payprays
+    Description: AI coding session island for DankMaterialShell with Codex, Claude Code, and OpenCode session cards on niri.
+    Repository: https://github.com/payprays/codeIsland-dms
+    Capabilities: dankbar-widget
+    Compositors: niri
+    Dependencies: python3, niri
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/512
+
+  Screenshot+
+    ID: screenshotPlus
+    Category: utilities
+    Author: pcmid
+    Description: Region screenshot with live annotation: draw while you select. Rectangle, ellipse, line, arrow, pen, highlighter, text, mosaic and numbered markers. The selection stays movable and resizable with the toolbar following it; the result is copied to the clipboard or saved to a file at native resolution.
+    Repository: https://github.com/pcmid/dms-screenshot-plus
+    Capabilities: daemon, ipc
+    Compositors: any
+    Upvotes: 4
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/877
+
+  TLP Power Profile
+    ID: tlpPowerProfile
+    Category: system
+    Author: petur
+    Description: Battery widget backed by TLP, exposing editable power profiles and charge thresholds.
+    Repository: https://github.com/peturh/tlp-power-profile
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: tlp
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/513
+    Related: TLP Control
+
+  Alienware Command Center
+    ID: awcc
+    Category: utilities
+    Author: psyreactor
+    Description: Alienware Command Center plugin for DankBar
+    Repository: https://github.com/psyreactor/dms-awcc
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/515
+
+  Dolar Blue
+    ID: dolarBlue
+    Category: utilities
+    Author: psyreactor
+    Description: Dolar Blue plugin for DankBar
+    Repository: https://github.com/psyreactor/dms-dolarBlue
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/516
+
+  GitHub Notifier
+    ID: githubNotifier
+    Category: utilities
+    Author: psyreactor
+    Description: Shows open PRs authored by you and issues assigned to you from GitHub in the DankBar.
+    Repository: https://github.com/psyreactor/dms-githubNotifier
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: github-cli, font-awesome
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/517
+
+  GitLab Notifier
+    ID: gitlabNotifier
+    Category: utilities
+    Author: psyreactor
+    Description: Shows in the DankBar the status of a GitLab scope (issues, MRs and incidents assigned to you)
+    Repository: https://github.com/psyreactor/dms-gitlabNotifier
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: glab, font-awesome
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/518
+
+  Kubernetes
+    ID: kubernetes
+    Category: utilities
+    Author: psyreactor
+    Description: Kubernetes plugin for DankBar
+    Repository: https://github.com/psyreactor/dms-kubernetes
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: kubectl
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/519
+
+  Voxtype
+    ID: voxtype
+    Category: utilities
+    Author: psyreactor
+    Description: voxtype status plugin for DankBar
+    Repository: https://github.com/psyreactor/dms-voxtype
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: voxtype
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/520
+    Related: VoxType Activity Overlay, VoxType OSD
+
+  CPU Core Load
+    ID: cpuCoreLoad
+    Category: monitoring
+    Author: Rabit
+    Description: Dank Bar widget showing per-CPU-core load as bars with.
+    Repository: https://github.com/rabits/dms-plugin-cpucoreload
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/521
+    Related: Cat Widget
+
+  Acer Sense
+    ID: acerSense
+    Category: system
+    Author: raphamzn
+    Description: Control panel for Acer Nitro/Predator laptops: power profile, fan presets, battery charge limit, USB charging and GPU mode (envycontrol), powered by linuwu-sense.
+    Repository: https://github.com/raphamzn/dms-acer-sense
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: linuwu-sense
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/523
+
+  Persian Calendar Pro
+    ID: persianCalendar
+    Category: utilities
+    Author: Rassoul Shahsanaii
+    Description: A bilingual Persian Jalali calendar with holidays, occasions, custom events, configurable date formats, and a full month popup.
+    Repository: https://github.com/rassoulshah/dms-persian-calendar
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/708
+
+  Dropdown Menu
+    ID: dropdownMenu
+    Category: utilities
+    Author: rdannenbring
+    Description: Configurable bar button that opens a dropdown menu of actions, plugin toggles, popouts, and IPC commands
+    Repository: https://github.com/rdannenbring/dropdown-menu
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/524
+
+  Intel GPU Monitor
+    ID: intelGpuMonitor
+    Category: monitoring
+    Author: rdannenbring
+    Description: Monitor Intel GPU usage, VRAM and temperature in the DankBar with configurable charts and a per-process detail view — reads kernel DRM fdinfo and sysfs directly, no root or extra tools required.
+    Repository: https://github.com/rdannenbring/dms-intel-gpu-plugin
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/660
+    Related: AMD GPU Monitor, GPU Monitor, AMD GPU Monitor Revive
+
+  Shelly Updater
+    ID: shellyUpdater
+    Category: system
+    Author: rdannenbring
+    Description: Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view, action menu, and control-center panel. Also counts DMS plugin and device firmware updates, plus any other tool you describe in a config file (mise and Rust toolchains ship as worked examples). Requires Shelly v3+.
+    Repository: https://github.com/rdannenbring/dms-shelly-updater
+    Capabilities: dankbar-widget, control-center
+    Compositors: any
+    Dependencies: shelly>=3
+    Upvotes: 4
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/661
+    Related: Flatpak Updates
+
+  VoxType Recording Overlay
+    ID: voxtypeOverlay
+    Category: utilities
+    Author: rdannenbring
+    Description: VoxType for DMS: a recording overlay (dim + active-window cutout + pulsing mic) and a bar/tray control widget — start/stop the daemon, switch output mode, pick your mic, switch engine, and run meetings from your DMS bar.
+    Repository: https://github.com/rdannenbring/voxtype-dms-overlay
+    Capabilities: daemon, dankbar-widget, control-center, ipc
+    Compositors: any
+    Dependencies: voxtype
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/705
+    Related: VoxType OSD
+
+  Widget Group
+    ID: widgetGroup
+    Category: utilities
+    Author: rdannenbring
+    Description: One bar button that expands to reveal a group of widgets inline, each with its own live pill and popout
+    Repository: https://github.com/rdannenbring/widget-group
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/525
+    Related: Hidden Bar
+
+  NVIDIA GPU Dankbar Monitor
+    ID: nvidiaGpuDankbarMonitor
+    Category: monitoring
+    Author: Revers
+    Description: Monitor NVIDIA GPU usage, VRAM, temperature, power consumption and process usage.
+    Repository: https://github.com/Reverssss/dms-nvidia-gpu-monitor
+    Capabilities: dankbar-widget, monitoring
+    Compositors: any
+    Dependencies: nvidia-smi
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/746
+
+  Cursor Highlight
+    ID: cursorHighlight
+    Category: utilities
+    Author: ReyArlena
+    Description: Cursor highlight for presentations, screen sharing or gaming. Bar widget toggle, rainbow mode, per-style settings, IPC keybind support.
+    Repository: https://github.com/ReyArlena/dms-cursor-highlight
+    Capabilities: daemon, dankbar-widget, ipc
+    Compositors: hyprland
+    Dependencies: python3
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/698
+
+  Anime Calendar
+    ID: animeCalendar
+    Category: utilities
+    Author: Ricea Ion Raul
+    Description: A QuickShell plugin for DankMaterialShell that tracks anime episode releases and sends notifications when your favorite shows air.
+    Repository: https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/526
+
+  Pangolin Widget
+    ID: pangolinWidget
+    Category: network
+    Author: Ricea Ion Raul
+    Description: QuickShell plugin for DankMaterialShell that exposes Pangolin VPN status, peer list with live RTT, routes, connection controls, and notifications. Backed by the pangolin CLI.
+    Repository: https://github.com/RiceaRaul/DMS-PangolinPlugin
+    Capabilities: dankbar-widget, control-center-widget
+    Compositors: any
+    Dependencies: pangolin
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/527
+
+  Niri Workspace Bar
+    ID: niriWorkspaceBar
+    Category: system
+    Author: Rob Wilkerson
+    Description: The focused niri workspace as a pill segmented to match its column count, plus a grouped switcher for every named workspace.
+    Repository: https://github.com/robwilkerson/dms-niri-workspace-bar
+    Capabilities: dankbar-widget
+    Compositors: niri
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/856
+
+  Niri Windows
+    ID: niriWindows
+    Category: utilities
+    Author: Bruno Cesar Rocha
+    Description: List and switch to open Niri windows from the launcher
+    Repository: https://github.com/rochacbruno/DankNiriWindows
+    Capabilities: launcher
+    Compositors: niri
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/529
+    Related: Niri Workspaces
+
+  World Clock
+    ID: worldClock
+    Category: utilities
+    Author: Bruno Cesar Rocha
+    Description: Multiple timezones clock for DankBar
+    Repository: https://github.com/rochacbruno/WorldClock
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/530
+    Related: World Clock Multi
+
+  Mail Checker
+    ID: mailChecker
+    Category: productivity
+    Author: Rocho
+    Description: Unread mail checker for IMAP mailboxes: bar indicator with unread count, popout with message list, desktop notifications. Not a mail client, just a checker.
+    Repository: https://github.com/Rocho-EL-Locho/dms-mail-checker
+    Capabilities: dankbar-widget, control-center-widget
+    Compositors: any
+    Dependencies: python3
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/531
+    Related: Mail Reader, Dankmail Unread
+
+  CPU Monitor
+    ID: cpuMonitor
+    Category: monitoring
+    Author: Rolle Laukkarinen
+    Description: CPU usage as an animated progress bar in your DankBar, updated every second
+    Repository: https://github.com/rollecode/dms-cpu-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/677
+
+  Disk Monitor
+    ID: diskMonitor
+    Category: monitoring
+    Author: Rolle Laukkarinen
+    Description: Disk usage as an animated progress bar in your DankBar, refreshed every 30 seconds
+    Repository: https://github.com/rollecode/dms-disk-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/678
+
+  GPU Monitor
+    ID: gpuMonitor
+    Category: monitoring
+    Author: Rolle Laukkarinen
+    Description: NVIDIA GPU load as an animated progress bar in your DankBar, updated every second
+    Repository: https://github.com/rollecode/dms-gpu-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: nvidia-smi
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/620
+    Related: Intel GPU Monitor
+
+  I/O Monitor
+    ID: ioMonitor
+    Category: monitoring
+    Author: Rolle Laukkarinen
+    Description: Live disk read and write throughput as an animated progress bar in your DankBar
+    Repository: https://github.com/rollecode/dms-io-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/687
+
+  RAM Monitor
+    ID: ramMonitor
+    Category: monitoring
+    Author: Rolle Laukkarinen
+    Description: RAM usage as an animated progress bar in your DankBar, updated every second
+    Repository: https://github.com/rollecode/dms-ram-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/621
+
+  VRAM Monitor
+    ID: vramMonitor
+    Category: monitoring
+    Author: Rolle Laukkarinen
+    Description: NVIDIA VRAM usage as an animated progress bar in your DankBar, updated every second
+    Repository: https://github.com/rollecode/dms-vram-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: nvidia-smi
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/622
+
+  Roon
+    ID: roon
+    Category: media
+    Author: Noa Himesaka
+    Description: Roon zone control from the bar: now playing, seek, volume, queue, library browser and zones, launcher search, desktop now-playing card, and an MPRIS bridge for media keys
+    Repository: https://github.com/NoaHimesaka1873/dms-plugin-roon
+    Capabilities: dankbar-widget, control-center, launcher, desktop-widget, daemon
+    Compositors: any
+    Dependencies: node
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/853
+
+  Dank Translate AI
+    ID: dankTranslateAI
+    Category: utilities
+    Author: SakuraToErii
+    Description: Security-focused, shortcut-driven AI translation with one-shot input reads, local secret screening, streaming, custom OpenAI-compatible APIs, and DankBar history.
+    Repository: https://github.com/SakuraToErii/dank-translate-ai
+    Capabilities: daemon, dankbar-widget
+    Compositors: any
+    Dependencies: uv, wl-clipboard
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/630
+    Related: Translate, Glance Translate
+
+  Screen Off
+    ID: screenOff
+    Category: system
+    Author: Ordis
+    Description: Turn off monitors from DankBar or Control Center.
+    Repository: https://github.com/SakuraToErii/DmsScreenOff
+    Capabilities: dankbar-widget, control-center
+    Compositors: any
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/606
+
+  PokeDash
+    ID: pokeDash
+    Category: utilities
+    Author: Sayan
+    Description: Pick your favorite pokemon, plop it on your desktop, and watch it idle menacingly (or adorably) while you actually get work done.
+    Repository: https://github.com/samgrande/PokeDash
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/697
+    Related: theGrove
+
+  Dank Obsidian
+    ID: dankObsidian
+    Category: utilities
+    Author: Samoggino
+    Description: Quick access to your Obsidian vaults
+    Repository: https://github.com/Samoggino/dankObsidian
+    Capabilities: launcher
+    Compositors: any
+    Dependencies: obsidian
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/533
+
+  AudioFX
+    ID: audioFx
+    Category: appearance
+    Author: satoshoe
+    Description: Audio visualizer along a screen edge with eight styles, a glow that makes the bright spots of the wallpaper pulse to the music, and a round player disc desktop widget. By default cava only runs while something plays.
+    Repository: https://github.com/satoshoe-dev/dms-audiofx
+    Capabilities: daemon, control-center, desktop-widget
+    Compositors: any
+    Dependencies: cava, python-numpy, python-pillow
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/942
+    Related: Cava Visualizer, Dank Audio Visualizer, EnderPulse
+
+  Profiles
+    ID: dmsProfiles
+    Category: appearance
+    Author: satoshoe
+    Description: Save the look of the shell (theme, accent, light or dark, wallpaper, bars, frame, transparency, desktop widgets) as profiles and switch between them with an animated transition. The picker has four views, among them a carousel and a honeycomb grid.
+    Repository: https://github.com/satoshoe-dev/dms-profiles
+    Capabilities: daemon
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/936
+    Related: Wallpaper Carousel
+
+  SessionEdge
+    ID: sessionEdge
+    Category: system
+    Author: satoshoe
+    Description: Session actions (lock, suspend, log out, reboot, power off, restart shell) in a slim strip that slides out of the DMS frame when you hover a screen edge. Actions that end the session need a click and hold.
+    Repository: https://github.com/satoshoe-dev/dms-sessionedge
+    Capabilities: daemon
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/913
+    Related: Fullscreen Power Menu
+
+  Window FX
+    ID: windowFx
+    Category: appearance
+    Author: satoshoe
+    Description: Close and open animations for windows on niri. There are 13 kinds, among them ember, shatter, melt, glitch and tube off, or a random pick from a list you choose. Opening plays the kind backwards, and edges can glow in the accent color. Needs one include line in the niri config.
+    Repository: https://github.com/satoshoe-dev/dms-window-fx
+    Capabilities: daemon
+    Compositors: niri
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/935
+
+  Xray Wallpaper
+    ID: xrayWallpaper
+    Category: appearance
+    Author: satoshoe
+    Description: Two wallpapers on top of each other: around the pointer the upper one has a soft hole that shows the picture underneath. Follows the pointer on the desktop, and a peek mode opens a round view above the windows.
+    Repository: https://github.com/satoshoe-dev/dms-xray-wallpaper
+    Capabilities: daemon
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/941
+
+  Dank Geary Mail
+    ID: dankGearyMail
+    Category: productivity
+    Author: schneik80
+    Description: Unread mail counts for every account configured in Geary. Reads Geary's local database, so no IMAP credentials are needed. Bar badge plus a popout with per-account counts and recent unread messages.
+    Repository: https://github.com/schneik80/dms-geary-mail
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python3, geary
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/805
+
+  VPN Control
+    ID: vpnControl
+    Category: system
+    Author: schneipp
+    Description: Connect and disconnect NetworkManager VPNs (OpenVPN, WireGuard) from the bar, with a per-profile toggle popout, right-click quick toggle, and a Control Center tile
+    Repository: https://github.com/schneipp/dms-plugin-vpn-control
+    Capabilities: dankbar-widget, control-center
+    Compositors: any
+    Dependencies: networkmanager
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/940
+
+  Spotlight Wallpapers
+    ID: spotlightWallpapers
+    Category: appearance
+    Author: scottmckendry
+    Description: Fetch and apply Windows Spotlight wallpapers from DankBar
+    Repository: https://github.com/scottmckendry/spotlight-wallpapers
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: curl
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/848
+    Related: Wallpaper of the Day, Wallpaper of the Day (Widget), Wallpaper Discovery, Wallarchy
+
+  Linux Wallpaper Engine
+    ID: linuxWallpaperEngine
+    Category: appearance
+    Author: sgtaziz
+    Description: Animated wallpaper support using linux-wallpaperengine with Steam Workshop scenes
+    Repository: https://github.com/sgtaziz/dms-wallpaperengine
+    Capabilities: wallpaper, animation
+    Compositors: any
+    Dependencies: linux-wallpaperengine
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/534
+    Related: mpvpaper Video Wallpaper, MpvPaper Plugin
+
+  Dank ASUS Control Center
+    ID: dankAsusControlCenter
+    Category: system
+    Author: Shazzaam
+    Description: Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
+    Repository: https://github.com/shazzaam7/DankAsusControl
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: asusctl, supergfxctl, upower
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/535
+
+  Game / Chat Mix
+    ID: gamechatMix
+    Category: audio
+    Author: Shochraos
+    Description: Balance game audio against Discord/chat audio with a single slider, with the routing daemon built in
+    Repository: https://github.com/Shochraos/game-chat-mix
+    Capabilities: dankbar-widget, daemon, audio
+    Compositors: any
+    Dependencies: pactl, gawk, flock
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/822
+
+  Todoman Tasks
+    ID: dankTodoman
+    Category: productivity
+    Author: shochraos
+    Description: CalDAV tasks in the bar via todoman: list, complete, and create todos with a popout.
+    Repository: https://github.com/Shochraos/dms-todoman-plugin
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: todoman, python3
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/673
+
+  Polyglot
+    ID: polyglot
+    Category: utilities
+    Author: Silzinc
+    Description: A WIP translation plugin. Currently supports DeepL's free API.
+    Repository: https://github.com/Silzinc/Polyglot
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: curl
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/536
+
+  Bar Dropdown
+    ID: barDropdown
+    Category: utilities
+    Author: sitolam
+    Description: One bar button that drops a panel of real bar widgets below the bar, for side sections with no room to expand along it
+    Repository: https://github.com/sitolam/dms-plugins
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/815
+    Related: Hidden Bar
+
+  Dank Menu
+    ID: dankMenu
+    Category: utilities
+    Author: sitolam
+    Description: Omarchy-style root menu: one key to every command, with built-in search, conditional rows and live labels
+    Repository: https://github.com/sitolam/dms-plugins
+    Capabilities: daemon, ipc
+    Compositors: any
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/787
+
+  MouthGuard
+    ID: mouthGuard
+    Category: monitoring
+    Author: sitolam
+    Description: Webcam mouth-closure tracker with alerts and session stats
+    Repository: https://github.com/sitolam/dms-plugins
+    Capabilities: daemon, dankbar-widget, control-center
+    Compositors: any
+    Dependencies: python3, python-opencv, python-openvino
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/793
+
+  Virtual Keyboard
+    ID: virtualKeyboard
+    Category: utilities
+    Author: sitolam
+    Description: On-screen keyboard overlay, toggled by IPC or an optional DankBar pill
+    Repository: https://github.com/sitolam/dms-plugins
+    Capabilities: daemon, ipc, dankbar-widget
+    Compositors: any
+    Dependencies: ydotool
+    Upvotes: 4
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/810
+
+  Scheduler Picker
+    ID: dankSchedPicker
+    Category: system
+    Author: SK-DEV-AI
+    Description: Switch CPU schedulers (sched-ext) and power profiles from the bar. Supports all 12 scx schedulers with descriptions and 5 power modes (Auto, Gaming, PowerSave, LowLatency, Server). Requires scx_loader.
+    Repository: https://github.com/SK-DEV-AI/dankSchedPicker
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/537
+
+  Clash Verge
+    ID: clashVerge
+    Category: system
+    Author: youngshine
+    Description: Lightweight Clash Verge overview, switching, and on-demand delay testing popout for DankMaterialShell
+    Repository: https://github.com/smithyyang/dms-clash-verge-plugin
+    Capabilities: dankbar-widget
+    Compositors: hyprland
+    Dependencies: python3, python3-venv, node
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/538
+
+  Mail Reader
+    ID: mailReader
+    Category: productivity
+    Author: youngshine
+    Description: IMAP mail reader with built-in email content viewer, server-side read status, and attachment opening. Forked from Rocho's mailChecker.
+    Repository: https://github.com/smithyyang/dms-mail-reader
+    Capabilities: dankbar-widget, control-center-widget
+    Compositors: any
+    Dependencies: python3
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/539
+    Related: Mail Checker, Dankmail Unread
+
+  Resource Monitor
+    ID: resourceMonitor
+    Category: monitoring
+    Author: youngshine
+    Description: Real-time CPU, memory and swap usage with circular progress indicators
+    Repository: https://github.com/smithyyang/dms-resource-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/540
+    Related: System Monitor Plus
+
+  Screen Recorder YS
+    ID: screenRecorderYS
+    Category: utilities
+    Author: youngshine
+    Description: GPU-accelerated monitor recording with VFR, quality and resolution controls, cursor capture, countdown, and independently selectable system and microphone audio.
+    Repository: https://github.com/smithyyang/dms-screen-recorder
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: gpu-screen-recorder
+    Upvotes: 3
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/754
+    Related: Screen Recorder X, Screen Recorder, Screen Capture Toolbar
+
+  Virtual Machine Manager
+    ID: virtManager
+    Category: utilities
+    Author: solax76
+    Description: Display libvirt/KVM virtual machine status and management controls (start, pause, shutdown, reboot, save state, virt-viewer)
+    Repository: https://github.com/solax76/DmsVirtualManager
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: libvirt (virsh), virt-viewer
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/994
+
+  CLIProxyAPI Quota
+    ID: cliproxyQuota
+    Category: monitoring
+    Author: Spyros Psarras
+    Description: Remaining AI provider quota (Claude, Codex, Copilot and more) from a CLIProxyAPI server: per-provider rings, pace, reset countdowns and daily activity. Requires the pi-bridge plugin on the server.
+    Repository: https://github.com/SpyrosPsarras/dms-cliproxy-quota
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: curl, jq
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/818
+    Related: AI Quotas, Claude Code Usage, Claude Usage
+
+  VSCode Launcher
+    ID: vscodeLauncher
+    Category: utilities
+    Author: SR_team
+    Description: Quick access to recent Visual Studio Code files, folders, and projects
+    Repository: https://github.com/sr-tream/dms-vscode-launcher
+    Capabilities: launcher
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/541
+
+  DMS Conky
+    ID: dmsconky
+    Category: utilities
+    Author: suruibin
+    Description: Classic Conky-style System Monitor + App Launcher
+    Repository: https://github.com/suruibin/dms-conky
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/544
+
+  DMS File Manager
+    ID: dmsfilemanager
+    Category: utilities
+    Author: suruibin
+    Description: File Manager For DMS - browse, manage and organize files on your desktop
+    Repository: https://github.com/suruibin/dms-filemanager
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/545
+
+  Air Quality
+    ID: airQuality
+    Category: monitoring
+    Author: Szabolcs Fazekas
+    Description: Display the current Air Quality Index (AQI) on the bar with detailed pollutant breakdown. Supports US and European AQI scales with auto-location.
+    Repository: https://github.com/szabolcsf/dms-air-quality
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: curl
+    Upvotes: 2
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/546
+
+  Magyar Névnapok
+    ID: magyarNevnapok
+    Category: utilities
+    Author: Szabolcs Fazekas
+    Description: Display the current Hungarian nameday on the DankBar. Shows today's name on the bar, with yesterday/today/tomorrow in the popout panel.
+    Repository: https://github.com/szabolcsf/dms-nameday
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Status: unmaintained
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/547
+
+  World Clock Multi
+    ID: worldClockMulti
+    Category: utilities
+    Author: Szabolcs Fazekas
+    Description: Display up to 5 timezones on the DankBar. Toggle between showing all at once or cycling one at a time at a configurable interval.
+    Repository: https://github.com/szabolcsf/dms-world-clock-multi
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/549
+    Related: World Clock
+
+  NVIDIA GPU Monitor
+    ID: nvidiaGpuMonitor
+    Category: monitoring
+    Author: Tejas Jondhale
+    Description: Monitor NVIDIA GPU usage, VRAM, temperature, power and GPU processes.
+    Repository: https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor
+    Capabilities: dankbar-widget, monitoring
+    Compositors: any
+    Dependencies: nvidia-smi
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/551
+
+  Uptime Monitor
+    ID: uptimeMonitor
+    Category: monitoring
+    Author: Th1nkK1D
+    Description: Periodically checks URLs and alerts on unexpected HTTP status
+    Repository: https://github.com/Th1nkK1D/dms-uptime-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: curl
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/951
+
+  TeamSpeak Status
+    ID: teamspeakStatus
+    Category: utilities
+    Author: thisilike
+    Description: Real-time TeamSpeak 6 status display — server, channel, mute, talking, away
+    Repository: https://github.com/thisilike/dms-plugin-teamspeak
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: ts-status
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/552
+
+  Audio Output Monitor
+    ID: audioOutputMonitor
+    Category: audio
+    Author: thiswod
+    Description: Identify applications currently or recently using audio output, including short-lived notification sounds.
+    Repository: https://github.com/thiswod/dank-audio-output-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: pactl, pw-mon, parec, python3
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/726
+
+  Claude Code Usage
+    ID: claudeCodeUsage
+    Category: monitoring
+    Author: Nicolas Bellamy
+    Description: Monitor your Claude Code subscription usage with token tracking, rate limits, and daily activity charts
+    Repository: https://github.com/titeya/dms-claudecode
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: jq
+    Upvotes: 7
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/553
+    Related: Claude Usage, AiOverviewControl, CLIProxyAPI Quota, Claude Usage and Stats
+
+  GitHub Inbox
+    ID: githubInbox
+    Category: productivity
+    Author: TMS-Namespace
+    Description: View and manage GitHub inbox messages (notifications) from a DMS popup widget
+    Repository: https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: curl, secret-tool, jq, notify-send, file, bash
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/554
+
+  Markets
+    ID: markets
+    Category: finance
+    Author: TMS-Namespace
+    Description: Near-live market prices for currencies, stocks, and commodities with charts through configurable data providers.
+    Repository: https://github.com/TMS-Namespace/DMS-Markets-Plugin
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: curl, bash
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/555
+    Related: Stock Manager
+
+  MpvPaper Plugin
+    ID: mpvpaper
+    Category: appearance
+    Author: tokisak1kurum1
+    Description: Play and switch video wallpapers with multi-monitor support, lock-screen power saving, and an included DankBar widget.
+    Repository: https://github.com/tokisak1kurum1/mpvpaper-plugin
+    Capabilities: wallpaper, daemon, dankbar-widget
+    Compositors: any
+    Dependencies: mpvpaper, ffmpeg
+    Upvotes: 4
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/653
+    Related: mpvpaper Video Wallpaper, Linux Wallpaper Engine
+
+  Depthscape
+    ID: depthscape
+    Category: appearance
+    Author: Tz-slayer
+    Description: AI depth-aware wallpapers: the near part of your wallpaper is redrawn above desktop widgets, so scenery and characters occlude your clock and cards like an iOS depth-effect lock screen.
+    Repository: https://github.com/Tz-slayer/depthscape
+    Capabilities: daemon, desktop-widget, ai
+    Compositors: niri
+    Dependencies: curl, qt6-5compat
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/915
+
+  Keystrokes
+    ID: keystrokes
+    Category: utilities
+    Author: Tz-slayer
+    Description: Shows every key you press as on-screen keycaps, with press counts and keystroke history. Ported from keyviz, for screencasts and tutorials.
+    Repository: https://github.com/Tz-slayer/keystrokes
+    Capabilities: daemon, control-center
+    Compositors: any
+    Dependencies: libinput, python3
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/914
+    Related: Screenkey
+
+  Converter
+    ID: converter
+    Category: utilities
+    Author: viewerofall 
+    Description: Universal unit and color converter. Convert distance, weight, temperature, speed, volume, area, energy, and colors (RGB/Hex/HSV/HSL) instantly from the launcher.
+    Repository: https://github.com/viewerofall-labs/weather-viewer
+    Capabilities: launcher
+    Compositors: any
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/556
+
+  theGrove
+    ID: theGrove
+    Category: appearance
+    Author: viewerofall
+    Description: A living tree on your desktop that grows as long as DankMaterialShell does. Water it, watch it grow through six real-time stages, and let it wilt if you forget.
+    Repository: https://github.com/viewerofall-labs/weather-viewer
+    Capabilities: desktop-widget
+    Compositors: any
+    Dependencies: notify-send
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/601
+    Related: PokeDash
+
+  Uptime Bar
+    ID: uptimeBar
+    Category: utilities
+    Author: viewerofall
+    Description: Dankbar uptime from /proc/uptime: schedule icon + monospace time, Theme bar sizing, shrink-wrapped width. Toggle seconds and day prefix; optional left inset if neighbors crowd you.
+    Repository: https://github.com/viewerofall-labs/weather-viewer
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/557
+
+  Weather Art
+    ID: weatherArt
+    Category: appearance
+    Author: viewerofall
+    Description: Dynamic weather art widget with responsive ASCII scenes, customizable stats, and theme support
+    Repository: https://github.com/viewerofall-labs/weather-viewer
+    Capabilities: desktop-widget
+    Compositors: any
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/558
+    Related: Material Weather, Dank Desktop Weather
+
+  Dank Software Depot
+    ID: dankSoftwareDepot
+    Category: system
+    Author: Vincent Blok
+    Description: Software & updates center: rich update cards with release notes, app store for system repos/Flathub/AppImage with ratings and reviews, installed-software management, firmware updates and an action log. Fedora first; Debian/Ubuntu and Arch experimental.
+    Repository: https://github.com/vinceecniv/DankSoftwareDepot
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: python3, python3-gobject, flatpak, python3-libdnf5 (Fedora), python3-apt (Debian/Ubuntu), pyalpm (Arch)
+    Upvotes: 11
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/720
+
+  Wiener Linien
+    ID: wienerLinien
+    Category: utilities
+    Author: Lukas Wolfsberger
+    Description: Track departure times of Wiener Linien public transit
+    Repository: https://github.com/wolfsblu/dms-wiener-linien
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/559
+
+  OpenTrackerBar
+    ID: openTrackerBar
+    Category: monitoring
+    Author: smajt
+    Description: Track AI usage limits via opentracker CLI
+    Repository: https://github.com/wsmajt/OpenTrackerBar
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: opentracker-cli
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/560
+    Related: Antigravity Usage, DeepSeek Usage, AiOverviewControl, AI Quotas
+
+  dGPU Sleep Monitor
+    ID: dgpuStatus
+    Category: utilities
+    Author: xantrk
+    Description: Monitor dGPU power state (D0, D3cold) and optionally display battery wattage with toggles for cardwire and/or supergfxctl mode switching.
+    Repository: https://github.com/xantrk/dgpu-sleep-monitor
+    Capabilities: dankbar-widget
+    Compositors: niri, hyprland
+    Upvotes: 4
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/561
+
+  Cat Widget
+    ID: catWidget
+    Category: monitoring
+    Author: kemo
+    Description: An animated running cat for the DankBar whose speed reflects CPU usage. Based on CatWalk by Driglu4it.
+    Repository: https://github.com/xi-ve/cat-dms
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 9
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/562
+    Related: CPU Core Load
+
+  Dank News RSS & Ticker Pill
+    ID: dankNewsRssTickerPill
+    Category: utilities
+    Author: Xn4m3d
+    Description: Bar companion for Dank News RSS & Ticker: the same scrolling headlines as a compact pill inside the DankBar
+    Repository: https://github.com/Xn4m3d/dms-rss-widget
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/857
+    Related: Dank News RSS & Ticker, Dank RSS Widget
+
+  Dank News RSS & Ticker
+    ID: dankNewsRssTicker
+    Category: utilities
+    Author: Xn4m3d
+    Description: RSS/Atom feeds as a desktop card plus a full-width scrolling news ticker that docks under your bar, follows a bottom bar, or floats
+    Repository: https://github.com/Xn4m3d/dms-rss-widget
+    Capabilities: desktop-widget
+    Compositors: any
+    Dependencies: curl
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/858
+    Related: Dank RSS Widget, Dank News RSS & Ticker Pill
+
+  Chinese Calendar
+    ID: chineseCalendar
+    Category: utilities
+    Author: xxyangyoulin
+    Description: Display Chinese lunar calendar with holiday information in the status bar
+    Repository: https://github.com/xxyangyoulin/dms-plugin-ccal
+    Capabilities: calendar, dankbar-widget
+    Compositors: any
+    Dependencies: ccal, curl
+    Upvotes: 1
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/563
+
+  Developer Utilities
+    ID: developerUtilities
+    Category: utilities
+    Author: xxyangyoulin
+    Description: Encoders, Decoders, Formatters and Converters for Developers
+    Repository: https://github.com/xxyangyoulin/dms-plugin-developer-utilities
+    Capabilities: developer-utilities, dankbar-widget
+    Compositors: any
+    Upvotes: 3
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/564
+
+  Display Output
+    ID: displayOutput
+    Category: system
+    Author: xyzsteven
+    Description: Manage display outputs (Single Display, Mirror, Extend).
+    Repository: https://github.com/xyzsteven/dms-displayoutput
+    Capabilities: manage-displays
+    Compositors: hyprland
+    Dependencies: socat
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/566
+    Related: Niri Display Settings, Display Profile
+
+  Storage Monitor
+    ID: storageMonitor
+    Category: system
+    Author: youngshine
+    Description: Monitor total and per-partition storage usage with progress bars, and mount or unmount internal and removable drives via udisks2.
+    Repository: https://github.com/YoungJurry/dms-storage-monitor
+    Capabilities: dankbar-widget
+    Compositors: any
+    Dependencies: udisks2
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/770
+
+  Razer Device Manager
+    ID: dankRazer
+    Category: utilities
+    Author: zachfi
+    Description: Control Razer peripherals via OpenRazer — lighting effects, brightness, DPI, and battery monitoring
+    Repository: https://github.com/zachfi/dms-razer
+    Capabilities: dankbar-widget, control-center, command-execution
+    Compositors: any
+    Dependencies: openrazer-daemon, go
+    Upvotes: 2
+    Status: reviewed
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/568
+
+  Time Manager
+    ID: timeManager
+    Category: utilities
+    Author: Zhainy
+    Description: Timer, Stopwatch & Pomodoro — all-in-one time manager for DankBar with progress bar, sound alarm and session tracking
+    Repository: https://github.com/Zhainy/DmsTimeManager
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 1
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/675
+    Related: Sands
+
+  CPU Thermal Indicator
+    ID: cpuThermalIndicator
+    Category: utilities
+    Author: zhtlancer
+    Description: CPU temperature and fan speed monitor for DankBar using Linux hwmon
+    Repository: https://github.com/zhtlancer/dms-cpu-thermal-indicator.git
+    Capabilities: dankbar-widget
+    Compositors: any
+    Upvotes: 2
+    Discuss: https://github.com/AvengeMedia/dms-plugin-registry/issues/674
+
