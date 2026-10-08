@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-#include "Stack/Stack.h"
+#include "Stack.h"
 
 #define POSTFIX_SIZE 512
 

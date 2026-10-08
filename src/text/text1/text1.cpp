@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "List/List.h"
+#include "List.h"
 
 /**
  * text1.cpp

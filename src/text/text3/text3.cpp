@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Stack/Stack.h"
+#include "Stack.h"
 
 /**
  * text3.cpp
@@ -9,6 +9,7 @@
 
 #define ROWS 13
 
+/* 构建下一行 */
 int BuildNextRow(SqStack current, SqStack next) {
     if (!Push(next, 1)) return ERROR;
 
@@ -19,6 +20,7 @@ int BuildNextRow(SqStack current, SqStack next) {
     return OK;
 }
 
+/* 输出row行 */
 void PrintRow(SqStack row, int level) {
     for (int i = 0; i < (ROWS - level) * 2; i++) printf(" ");
     for (int i = 0; i < StackLen(row); i++) printf("%-4d", row->elem[i]);
@@ -29,7 +31,6 @@ int main() {
     SqStack current = InitStack();
     SqStack next = InitStack();
     if (!current || !next) {
-        printf("栈初始化失败\n");
         FreeStack(&current);
         FreeStack(&next);
         return ERROR;
@@ -45,7 +46,6 @@ int main() {
         PrintRow(current, level);
         if (level < ROWS) {
             if (!BuildNextRow(current, next)) {
-                printf("生成杨辉三角失败\n");
                 FreeStack(&current);
                 FreeStack(&next);
                 return ERROR;
