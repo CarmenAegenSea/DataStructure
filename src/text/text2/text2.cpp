@@ -9,14 +9,6 @@
  * 基于栈的表达式计算器
  */
 
-/* 判断字符是否为运算符 */
-int IsOperator(int ch) {
-    if (ch == '+' || ch == '-' || ch == '*' || ch == '/' || ch == '(' || ch == ')') {
-        return TRUE;
-    }
-    return FALSE;
-}
-
 /* 返回运算符优先级 */
 int Precedence(int op) {
     switch (op) {
@@ -67,17 +59,16 @@ int CalcOnce(SqStack opnd, SqStack optr) {
 
 /* 对表达式字符串求值，成功返回 OK，结果存入 *result */
 int Evaluate(const char *expr, int *result) {
-    SqStack opnd = InitStack();   /* 操作数栈 */
-    SqStack optr = InitStack();   /* 运算符栈 */
+    SqStack opnd = InitStack();
+    SqStack optr = InitStack();
+    int i = 0, ch, num;
+    int status = ERROR;
 
     if (!opnd || !optr) {
         printf("栈初始化失败\n");
-        FreeStack(&opnd);
-        FreeStack(&optr);
-        return ERROR;
+        goto cleanup;
     }
 
-    int i = 0;
     while (expr[i] != '\0') {
         if (isspace(expr[i])) {
             i++;
@@ -86,91 +77,66 @@ int Evaluate(const char *expr, int *result) {
 
         /* 数字：读取多位整数 */
         if (isdigit(expr[i])) {
-            int num = 0;
+            num = 0;
             while (isdigit(expr[i])) {
                 num = num * 10 + (expr[i] - '0');
                 i++;
             }
             if (!Push(opnd, num)) {
                 printf("入栈失败\n");
-                FreeStack(&opnd);
-                FreeStack(&optr);
-                return ERROR;
+                goto cleanup;
             }
             continue;
         }
 
-        /* 运算符 */
-        if (IsOperator(expr[i])) {
-            int ch = expr[i];
-            if (ch == '(') {
-                Push(optr, ch);
-            } else if (ch == ')') {
-                while (!StackEmpty(optr) && GetTop(optr) != '(') {
-                    if (!CalcOnce(opnd, optr)) {
-                        FreeStack(&opnd);
-                        FreeStack(&optr);
-                        return ERROR;
-                    }
-                }
-                if (StackEmpty(optr)) {
-                    printf("错误：括号不匹配\n");
-                    FreeStack(&opnd);
-                    FreeStack(&optr);
-                    return ERROR;
-                }
-                Pop(optr);   /* 弹出 '(' */
-            } else {
-                /* 处理负号：表达式开头或 '(' 后的 '-' 视为负号 */
-                if (ch == '-' && (i == 0 || expr[i - 1] == '(')) {
-                    Push(opnd, 0);
-                }
-                while (!StackEmpty(optr) &&
-                       Precedence(GetTop(optr)) >= Precedence(ch)) {
-                    if (!CalcOnce(opnd, optr)) {
-                        FreeStack(&opnd);
-                        FreeStack(&optr);
-                        return ERROR;
-                    }
-                }
-                Push(optr, ch);
+        ch = expr[i];
+        if (ch == '(') {
+            if (!Push(optr, ch)) goto cleanup;
+        } else if (ch == ')') {
+            while (!StackEmpty(optr) && GetTop(optr) != '(') {
+                if (!CalcOnce(opnd, optr)) goto cleanup;
             }
-            i++;
-            continue;
+            if (StackEmpty(optr)) {
+                printf("错误：括号不匹配\n");
+                goto cleanup;
+            }
+            Pop(optr);
+        } else if (ch == '+' || ch == '-' || ch == '*' || ch == '/') {
+            if (ch == '-' && (i == 0 || expr[i - 1] == '(')) {
+                if (!Push(opnd, 0)) goto cleanup;
+            }
+            while (!StackEmpty(optr) &&
+                   Precedence(GetTop(optr)) >= Precedence(ch)) {
+                if (!CalcOnce(opnd, optr)) goto cleanup;
+            }
+            if (!Push(optr, ch)) goto cleanup;
+        } else {
+            printf("错误：非法字符 '%c'\n", ch);
+            goto cleanup;
         }
-
-        printf("错误：非法字符 '%c'\n", expr[i]);
-        FreeStack(&opnd);
-        FreeStack(&optr);
-        return ERROR;
+        i++;
     }
 
-    /* 处理栈中剩余运算符 */
     while (!StackEmpty(optr)) {
         if (GetTop(optr) == '(') {
             printf("错误：括号不匹配\n");
-            FreeStack(&opnd);
-            FreeStack(&optr);
-            return ERROR;
+            goto cleanup;
         }
-        if (!CalcOnce(opnd, optr)) {
-            FreeStack(&opnd);
-            FreeStack(&optr);
-            return ERROR;
-        }
+        if (!CalcOnce(opnd, optr)) goto cleanup;
     }
 
     if (StackLen(opnd) != 1) {
         printf("错误：表达式不合法\n");
-        FreeStack(&opnd);
-        FreeStack(&optr);
-        return ERROR;
+        goto cleanup;
     }
 
     *result = Pop(opnd);
+    status = OK;
+
+cleanup:
     FreeStack(&opnd);
     FreeStack(&optr);
-    return OK;
+    return status;
 }
 
 int main() {
@@ -180,15 +146,6 @@ int main() {
     if (!fgets(expr, sizeof(expr), stdin)) {
         printf("输入读取失败\n");
         return 1;
-    }
-
-    /* 去除末尾换行 */
-    int len = 0;
-    while (expr[len] != '\0') {
-        len++;
-    }
-    if (len > 0 && expr[len - 1] == '\n') {
-        expr[len - 1] = '\0';
     }
 
     int result;

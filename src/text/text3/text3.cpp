@@ -1,25 +1,62 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "Stack/Stack.h"
 
-#define LAYERSIZE 13
+/**
+ * text3.cpp
+ * 上机作业3
+ * 使用栈实现输出杨辉三角
+ */
+
+#define ROWS 13
+
+int BuildNextRow(SqStack current, SqStack next) {
+    if (!Push(next, 1)) return ERROR;
+
+    while (!StackEmpty(current)) {
+        int value = Pop(current);
+        if (!Push(next, value + GetTop(current))) return ERROR;
+    }
+    return OK;
+}
+
+void PrintRow(SqStack row, int level) {
+    for (int i = 0; i < (ROWS - level) * 2; i++) printf(" ");
+    for (int i = 0; i < StackLen(row); i++) printf("%-4d", row->elem[i]);
+    printf("\n");
+}
 
 int main() {
-    SqStack last = InitStack();
+    SqStack current = InitStack();
     SqStack next = InitStack();
-    if (!last || !next) {
-        FreeStack(&last);
+    if (!current || !next) {
+        printf("栈初始化失败\n");
+        FreeStack(&current);
         FreeStack(&next);
-        return WARNING;
+        return ERROR;
     }
 
-    Push(last, 1);
-    Push(next, 1);
-    Push(next, 1);
-
-    for (int i = 0; i < LAYERSIZE; i++) {
-
+    if (!Push(current, 1)) {
+        FreeStack(&current);
+        FreeStack(&next);
+        return ERROR;
     }
 
+    for (int level = 1; level <= ROWS; level++) {
+        PrintRow(current, level);
+        if (level < ROWS) {
+            if (!BuildNextRow(current, next)) {
+                printf("生成杨辉三角失败\n");
+                FreeStack(&current);
+                FreeStack(&next);
+                return ERROR;
+            }
+            SqStack temp = current;
+            current = next;
+            next = temp;
+        }
+    }
+
+    FreeStack(&current);
+    FreeStack(&next);
     return 0;
 }
