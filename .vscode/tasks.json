@@ -9,6 +9,7 @@
                 "-g",
                 "-I${workspaceFolder}/include",
                 "${file}",
+                "${workspaceFolder}/include/List.cpp",
                 "${workspaceFolder}/include/Stack.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",

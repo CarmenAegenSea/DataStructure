@@ -38,9 +38,9 @@ void ClearQueueL(LinkQueue Q) {
     Q->rear = Q->front;
 }
 
-int QueueRmpty(LinkQueue Q) {
+int QueueRmptyL(LinkQueue Q) {
     if (!Q) {
-        return;
+        return ERROR;
     }
     return Q->front == Q->rear ? TRUE : FALSE;
 }
@@ -77,12 +77,13 @@ int EnQueueL(LinkQueue Q, int e) {
 }
 
 int DeQueueL(LinkQueue Q) {
-    if (!Q || Q->front == Q->front) {
+    if (!Q || Q->front == Q->rear) {
         return WARNING;
     }
 
     QueuePtr p = Q->front->next;
     int e = p->data;
+    Q->front->next = p->next;
     if (Q->rear == p) {
         Q->rear = Q->front;
     }
