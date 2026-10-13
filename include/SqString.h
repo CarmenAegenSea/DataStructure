@@ -10,7 +10,7 @@ typedef struct SqString
     int capacity;   /* 当前分配的存储容量（字节数，含'\0'） */
 } SqString;
 
-int InitString(SqString *S);                                              /* 初始化为空串 */
+int InitString(SqString *S);                                             /* 初始化为空串 */
 void DestroyString(SqString *S);                                         /* 释放字符串 */
 int ClearString(SqString *S);                                            /* 清空字符串 */
 int StrAssign(SqString *S, const char *chars);                           /* 用C字符串赋值 */
