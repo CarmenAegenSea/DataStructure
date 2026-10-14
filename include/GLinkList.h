@@ -11,7 +11,7 @@ typedef struct GLinkList            /* 广义表结点 */
     ElemTag tag;                    /* 类型标志 */
     union {  
         AtomType atom;              /* 原子数据 */
-        GLinkList list;             /* 链表数据 */
+        GLinkList *list;             /* 链表数据 */
     };
     GLinkList *next;                /* 指向下一个结点的指针 */
 } *GLinkList;
