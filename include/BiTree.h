@@ -1,8 +1,7 @@
 #ifndef BITTREE_H
-#define BITTRTEE_H
+#define BITTREE_H
 
 #include "Def.h"
-typedef int ElemType;
 
 typedef struct BitNode
 {
@@ -12,7 +11,7 @@ typedef struct BitNode
 
 BiTree MakeBiTree(ElemType e, BiTree L, BiTree R);     /* 组建一个二叉树，头结点值为e, 左右字数为LR */
 BiTree FreeBiTree(BiTree T);
-BiTree BiTreeEmpty(BiTree T);
+Status BiTreeEmpty(BiTree T);
 BiTree ReplaceLeft(BiTree T, BiTree LT);
 BiTree ReplaceRight(BiTree T, BiTree RT);
 
