@@ -1,39 +1,41 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #include "BiTree.h"
 
-static BiTree CreateTree(Status *result) {
-    int value;
-    BiTree left;
-    BiTree right;
+static BiTree ReadTree(Status *result) {
+    int count;
+    int *values;
     BiTree tree;
+    int i;
 
-    if (scanf("%d", &value) != 1) {
+    printf("输入先序序列元素个数：");
+    if (scanf("%d", &count) != 1 || count <= 0) {
         *result = ERROR;
         return NULL;
     }
-    if (value == -1) {
-        return NULL;
-    }
 
-    left = CreateTree(result);
-    if (*result != OK) {
-        FreeBiTree(left);
-        return NULL;
-    }
-
-    right = CreateTree(result);
-    if (*result != OK) {
-        FreeBiTree(left);
-        FreeBiTree(right);
-        return NULL;
-    }
-
-    tree = MakeBiTree(value, left, right);
-    if (!tree) {
-        FreeBiTree(left);
-        FreeBiTree(right);
+    values = (int *)malloc((size_t)count * sizeof(int));
+    if (!values) {
         *result = ERROR;
+        return NULL;
+    }
+
+    printf("输入%d个先序序列元素：\n", count);
+    for (i = 0; i < count; ++i) {
+        if (scanf("%d", &values[i]) != 1) {
+            free(values);
+            *result = ERROR;
+            return NULL;
+        }
+    }
+
+    tree = CreateTree(values, count, result);
+    free(values);
+
+    if (*result != OK) {
+        FreeBiTree(tree);
+        return NULL;
     }
     return tree;
 }
@@ -72,8 +74,7 @@ int main(void) {
         case 1: {
             Status result = OK;
             BiTree newTree;
-            printf("输入先序表达式：\n");
-            newTree = CreateTree(&result);
+            newTree = ReadTree(&result);
             if (result == OK) {
                 tree = FreeBiTree(tree);
                 tree = newTree;
@@ -104,8 +105,7 @@ int main(void) {
                 break;
             }
 
-            printf("输入先序表达式：\n");
-            newSubtree = CreateTree(&result);
+            newSubtree = ReadTree(&result);
             if (result != OK) {
                 FreeBiTree(newSubtree);
                 printf("创建失败，原子树未修改\n");

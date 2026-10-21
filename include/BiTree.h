@@ -3,6 +3,10 @@
 
 #include "Def.h"
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef struct BitNode
 {
     ElemType date;
@@ -11,6 +15,7 @@ typedef struct BitNode
 
 BiTree InitBiTree();                                        /* 构造并返回一个空二叉树 */
 BiTree MakeBiTree(ElemType e, BiTree L, BiTree R);          /* 创建根节点值为e、左右子树分别为L和R的二叉树 */
+BiTree CreateTree(const ElemType values[], int count, Status *result); /* 根据带空子树标记的先序数组创建二叉树 */
 BiTree FreeBiTree(BiTree T);                                /* 回收T的所有节点，返回null */
 Status BiTreeEmpty(BiTree T);                               /* 若T为空返回TRUE，否则返回FALSE */
 int BiTreeDepth(BiTree T);                                  /* 返回T的深度 */
@@ -26,5 +31,9 @@ Status PreOrderTrav(BiTree T, Status (*F)(ElemType e));     /* 先序遍历T的�
 Status InOrderTrav(BiTree T, Status (*F)(ElemType e));      /* 中序遍历T的所有节点并对每个节点调用F, 一旦F失败则返回ERROR */
 Status PostOrderTrav(BiTree T, Status (*F)(ElemType e));    /* 后序遍历T的所有节点并对每个节点调用F, 一旦F失败则返回ERROR */
 Status LevelOrderTrav(BiTree T, Status (*F)(ElemType e));   /* 层序遍历T的所有节点并对每个节点调用F. 一旦F失败则返回ERROR */
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

@@ -15,6 +15,40 @@ void DestroyTree(BiTree tree) {
     delete tree;
 }
 
+BiTree CreateTreeFromPreorder(const ElemType values[], int count, int *index,
+                              Status *result) {
+    if (*index >= count) {
+        *result = ERROR;
+        return nullptr;
+    }
+
+    const ElemType value = values[(*index)++];
+    if (value == -1) {
+        return nullptr;
+    }
+
+    BiTree left = CreateTreeFromPreorder(values, count, index, result);
+    if (*result != OK) {
+        FreeBiTree(left);
+        return nullptr;
+    }
+
+    BiTree right = CreateTreeFromPreorder(values, count, index, result);
+    if (*result != OK) {
+        FreeBiTree(left);
+        FreeBiTree(right);
+        return nullptr;
+    }
+
+    BiTree tree = MakeBiTree(value, left, right);
+    if (!tree) {
+        FreeBiTree(left);
+        FreeBiTree(right);
+        *result = ERROR;
+    }
+    return tree;
+}
+
 int Depth(BiTree tree) {
     if (!tree) {
         return 0;
@@ -90,6 +124,28 @@ BiTree InitBiTree() {
 
 BiTree MakeBiTree(ElemType e, BiTree L, BiTree R) {
     return new (std::nothrow) BitNode{e, L, R};
+}
+
+BiTree CreateTree(const ElemType values[], int count, Status *result) {
+    if (!result) {
+        return nullptr;
+    }
+    *result = ERROR;
+    if (!values || count <= 0) {
+        return nullptr;
+    }
+
+    *result = OK;
+    int index = 0;
+    BiTree tree = CreateTreeFromPreorder(values, count, &index, result);
+    if (*result == OK && index != count) {
+        *result = ERROR;
+    }
+    if (*result != OK) {
+        FreeBiTree(tree);
+        return nullptr;
+    }
+    return tree;
 }
 
 BiTree FreeBiTree(BiTree T) {
