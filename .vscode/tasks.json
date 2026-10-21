@@ -11,6 +11,7 @@
                 "${file}",
                 "${workspaceFolder}/include/List.cpp",
                 "${workspaceFolder}/include/Stack.cpp",
+                "${workspaceFolder}/include/BitTree.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-lm"
