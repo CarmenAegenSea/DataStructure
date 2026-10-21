@@ -15,7 +15,8 @@ typedef struct BitNode
 
 BiTree InitBiTree();                                        /* 构造并返回一个空二叉树 */
 BiTree MakeBiTree(ElemType e, BiTree L, BiTree R);          /* 创建根节点值为e、左右子树分别为L和R的二叉树 */
-BiTree CreateTree(const ElemType values[], int count, Status *result); /* 根据带空子树标记的先序数组创建二叉树 */
+BiTree CreateTree(const ElemType preorder[], const ElemType inorder[], int count,
+                  Status *result);                        /* 根据先序和中序序列创建二叉树，结点值须唯一 */
 BiTree FreeBiTree(BiTree T);                                /* 回收T的所有节点，返回null */
 Status BiTreeEmpty(BiTree T);                               /* 若T为空返回TRUE，否则返回FALSE */
 int BiTreeDepth(BiTree T);                                  /* 返回T的深度 */

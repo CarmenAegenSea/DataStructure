@@ -15,38 +15,60 @@ void DestroyTree(BiTree tree) {
     delete tree;
 }
 
-BiTree CreateTreeFromPreorder(const ElemType values[], int count, int *index,
-                              Status *result) {
-    if (*index >= count) {
+BiTree BuildTreeFromOrders(const ElemType preorder[], const ElemType inorder[],
+                           int preorderStart, int inorderStart, int count,
+                           Status *result) {
+    if (count == 0) {
+        return nullptr;
+    }
+
+    const ElemType rootValue = preorder[preorderStart];
+    int rootIndex = inorderStart;
+    while (rootIndex < inorderStart + count &&
+           inorder[rootIndex] != rootValue) {
+        ++rootIndex;
+    }
+    if (rootIndex == inorderStart + count) {
         *result = ERROR;
         return nullptr;
     }
 
-    const ElemType value = values[(*index)++];
-    if (value == -1) {
-        return nullptr;
-    }
-
-    BiTree left = CreateTreeFromPreorder(values, count, index, result);
+    const int leftCount = rootIndex - inorderStart;
+    BiTree left = BuildTreeFromOrders(preorder, inorder, preorderStart + 1,
+                                      inorderStart, leftCount, result);
     if (*result != OK) {
         FreeBiTree(left);
         return nullptr;
     }
 
-    BiTree right = CreateTreeFromPreorder(values, count, index, result);
+    const int rightCount = count - leftCount - 1;
+    BiTree right = BuildTreeFromOrders(preorder, inorder,
+                                       preorderStart + leftCount + 1,
+                                       rootIndex + 1, rightCount, result);
     if (*result != OK) {
         FreeBiTree(left);
         FreeBiTree(right);
         return nullptr;
     }
 
-    BiTree tree = MakeBiTree(value, left, right);
+    BiTree tree = MakeBiTree(rootValue, left, right);
     if (!tree) {
         FreeBiTree(left);
         FreeBiTree(right);
         *result = ERROR;
     }
     return tree;
+}
+
+bool HasUniqueValues(const ElemType values[], int count) {
+    for (int i = 0; i < count; ++i) {
+        for (int j = i + 1; j < count; ++j) {
+            if (values[i] == values[j]) {
+                return false;
+            }
+        }
+    }
+    return true;
 }
 
 int Depth(BiTree tree) {
@@ -126,21 +148,26 @@ BiTree MakeBiTree(ElemType e, BiTree L, BiTree R) {
     return new (std::nothrow) BitNode{e, L, R};
 }
 
-BiTree CreateTree(const ElemType values[], int count, Status *result) {
+BiTree CreateTree(const ElemType preorder[], const ElemType inorder[],
+                  int count, Status *result) {
     if (!result) {
         return nullptr;
     }
     *result = ERROR;
-    if (!values || count <= 0) {
+    if (count < 0 || (count > 0 && (!preorder || !inorder))) {
+        return nullptr;
+    }
+    if (count == 0) {
+        *result = OK;
+        return nullptr;
+    }
+    if (!HasUniqueValues(preorder, count) ||
+        !HasUniqueValues(inorder, count)) {
         return nullptr;
     }
 
     *result = OK;
-    int index = 0;
-    BiTree tree = CreateTreeFromPreorder(values, count, &index, result);
-    if (*result == OK && index != count) {
-        *result = ERROR;
-    }
+    BiTree tree = BuildTreeFromOrders(preorder, inorder, 0, 0, count, result);
     if (*result != OK) {
         FreeBiTree(tree);
         return nullptr;

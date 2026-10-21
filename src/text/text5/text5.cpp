@@ -5,33 +5,54 @@
 
 static BiTree ReadTree(Status *result) {
     int count;
-    int *values;
+    int *preorder;
+    int *inorder;
     BiTree tree;
     int i;
 
-    printf("输入先序序列元素个数：");
-    if (scanf("%d", &count) != 1 || count <= 0) {
+    printf("输入结点个数：");
+    if (scanf("%d", &count) != 1 || count < 0) {
         *result = ERROR;
         return NULL;
     }
 
-    values = (int *)malloc((size_t)count * sizeof(int));
-    if (!values) {
+    if (count == 0) {
+        *result = OK;
+        return NULL;
+    }
+
+    preorder = (int *)malloc((size_t)count * sizeof(int));
+    inorder = (int *)malloc((size_t)count * sizeof(int));
+    if (!preorder || !inorder) {
+        free(preorder);
+        free(inorder);
         *result = ERROR;
         return NULL;
     }
 
     printf("输入%d个先序序列元素：\n", count);
     for (i = 0; i < count; ++i) {
-        if (scanf("%d", &values[i]) != 1) {
-            free(values);
+        if (scanf("%d", &preorder[i]) != 1) {
+            free(preorder);
+            free(inorder);
             *result = ERROR;
             return NULL;
         }
     }
 
-    tree = CreateTree(values, count, result);
-    free(values);
+    printf("输入%d个中序序列元素：\n", count);
+    for (i = 0; i < count; ++i) {
+        if (scanf("%d", &inorder[i]) != 1) {
+            free(preorder);
+            free(inorder);
+            *result = ERROR;
+            return NULL;
+        }
+    }
+
+    tree = CreateTree(preorder, inorder, count, result);
+    free(preorder);
+    free(inorder);
 
     if (*result != OK) {
         FreeBiTree(tree);
@@ -46,7 +67,7 @@ static Status PrintValue(ElemType value) {
 }
 
 static void UI(void) {
-    printf("1. 从先序表达式创建二叉树\n");
+    printf("1. 从先序和中序序列创建二叉树\n");
     printf("2. 判断二叉树是否为空\n");
     printf("3. 获取二叉树深度\n");
     printf("4. 替换左子树并返回原左子树\n");
